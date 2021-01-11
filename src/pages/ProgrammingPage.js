@@ -78,9 +78,9 @@ function ProgrammingPage() {
                     </Row>
 
                     <Row>
-                        <Col span={24}><div className="headings text-miniMedium">Open source</div></Col>
+                        <Col span={24}><div className="headings text-medium">Open source</div></Col>
                     </Row>
-                    <Divider className="gradient-border-small" />
+                    <Divider className="gradient-border" />
                     <Row gutter={[0, 12]}>
                         <Col span={24}>{t("programmingProject:intro")}</Col>
                     </Row>

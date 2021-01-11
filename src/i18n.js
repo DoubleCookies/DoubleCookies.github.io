@@ -55,7 +55,16 @@ i18n
                     ghPages: 'This page host',
                     i18next: 'For internationalization',
                     reactRouter: 'For navigation',
-                    cookie: 'I\'m smart cookie. Understand those things.',
+                    cookie: 'I\'m smart cookie. Know something about it.',
+                },
+                programmingProject: {
+                    title: 'Projects',
+                    intro: 'There are some repositories on my Github-page:',
+                    GDStatistics: 'Project about collecting statistics from Geometry Dash.',
+                    stats4wiki: 'Almost the same as previous but more specific',
+                    StringSwap: 'Small app for text processing',
+                    MazeGeneratorAndSolver: 'Maze generation and solving. Also has rendering for both processes',
+                    AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
                 },
             },
             ru: {
@@ -89,7 +98,7 @@ i18n
                     ghPages: 'Место размещение web-страницы',
                     i18next: 'Для поддержки разных языков',
                     reactRouter: 'Для навигации',
-                    cookie: 'Я весьма умное печенье. Разбираюсь во всём этом.'
+                    cookie: 'Я весьма умное печенье. Что-то знаю про всё это.'
                 },
                 programmingProject: {
                     title: 'Проекты',
