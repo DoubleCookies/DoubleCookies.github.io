@@ -17,9 +17,16 @@
     padding-right: 24px;
 }
 
-.headings {
+.headings, .headings-medium {
     font-family: "Century Gothic", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+.headings {
     margin-top: 15px;
+}
+
+.headings-medium {
+    margin-top: 10px;
 }
 
 .text-big {
@@ -35,7 +42,7 @@
 }
 
 .gradient-border-small {
-    background-image: linear-gradient(to right, rgba(239, 210, 151, 0.91) 25px, transparent 60%);
+    background-image: linear-gradient(to right, rgba(234, 179, 76, 0.31) 25px, transparent 60%);
     border: 0;
     height: 4px;
     margin: 0 0 6px 0;

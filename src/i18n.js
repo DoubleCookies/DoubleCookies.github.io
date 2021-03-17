@@ -41,8 +41,7 @@ i18n
                     fandomIntro: 'FANDOM is one of the biggest wiki hosting and fan-site in the world. I actively edit on it since 2016. ' +
                         'The main direction is to maintain the technical part of project (templates, CSS, JS, even Lua modules); also I improve articles and write new ones.',
                     fandomVanguard: 'Since 2019 I\'m Vanguard member - team which helps make Fandom\'s content available on the widest possible range of devices.',
-                    fandomPreLink: 'More details about me you can find ',
-                    fandomLink: 'here.',
+                    fandomPreLink: 'More details about me you can find *in hobbies*',
                     hobbiesTitle: 'Hobbies',
                     hobbiesLink: 'Photography, books, chess and other things!',
                     intro: 'Hello! I am DoubleCookies — person who loves programming, eating cookies, check statistics and many other things!' +
@@ -50,7 +49,7 @@ i18n
                 },
                 aboutThisPage: {
                     title: 'This page uses following technologies:',
-                    antd: 'For most of components (menu, pictures, even this popover)',
+                    antd: 'For most components (menu, pictures, even this popover)',
                     createReactApp: 'Starting point for project',
                     ghPages: 'This page host',
                     i18next: 'For internationalization',
@@ -66,6 +65,14 @@ i18n
                     MazeGeneratorAndSolver: 'Maze generation and solving. Also has rendering for both processes',
                     AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
                 },
+                programmingSection: {
+                    exp: 'Skills',
+                    start: 'I am software engineer with 3+ years experience. During this time I learned and used following technologies:',
+                    javaExp: 'Main programming language, used most of the time. Also learned about connected things like:',
+                    jsExp: 'Javascript and other stuff (Frameworks, libraries, HTML, CSS). Also used a lot.',
+                    otherExp: 'Other',
+                    githubStats: 'GitHub Stats',
+                }
             },
             ru: {
                 mainPage: {
@@ -84,8 +91,7 @@ i18n
                         '2016 года. Основным направлением является поддержание технической части википроектов (шаблоны, CSS, JS, в редких случаях — Lua); помимо этого ' +
                         'дорабатываю имеющиеся статьи и иногда создаю новые.',
                     fandomVanguard: 'С 2019 года являюсь членом команды Vanguard, которая делает контент ФЭНДОМа доступным для как можно большего количества устройсв.',
-                    fandomPreLink: 'Подробнее о моей деятельности написано ',
-                    fandomLink: 'здесь.',
+                    fandomPreLink: 'Подробнее о моей деятельности написано *в увлечениях*',
                     hobbiesTitle: 'Увлечения',
                     hobbiesLink: 'Фотография, чтение книг, шахматы и не только! ',
                     intro: 'Всем привет! С вами DoubleCookies — тот, кто любит программировать, кушать печенье, изучать статистику и многое другое. ' +

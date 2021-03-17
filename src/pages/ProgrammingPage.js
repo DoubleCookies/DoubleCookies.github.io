@@ -34,7 +34,7 @@ function ProgrammingPage() {
                         <Col span={24}>{t("start")}</Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings text-miniMedium">Java</div></Col>
+                        <Col span={24}><div className="headings-medium text-miniMedium">Java</div></Col>
                     </Row>
                     <Divider className="gradient-border-small" />
                     <Row>
@@ -49,7 +49,7 @@ function ProgrammingPage() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings text-miniMedium">Web</div></Col>
+                        <Col span={24}><div className="headings-medium text-miniMedium">Web</div></Col>
                     </Row>
                     <Divider className="gradient-border-small" />
                     <Row>
@@ -66,7 +66,7 @@ function ProgrammingPage() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings text-miniMedium">{t("otherExp")}</div></Col>
+                        <Col span={24}><div className="headings-medium text-miniMedium">{t("otherExp")}</div></Col>
                     </Row>
                     <Divider className="gradient-border-small" />
                     <Row>

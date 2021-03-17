@@ -40,11 +40,12 @@ function MainPage() {
                         <Col span={24}><div className="headings text-medium">FANDOM</div></Col>
                     </Row>
                     <Divider className="gradient-border" />
+                    {/*Надо перенести в увлечения*/}
                     <Row>
                         <Col span={24}>
                             <div>{t("mainPage:fandomIntro")}</div><br/>
                             <div>{t("mainPage:fandomVanguard")}</div><br/>
-                            <div>{t("mainPage:fandomPreLink")}<Link to="/fandom">{t("mainPage:fandomLink")}</Link></div>
+                            <div>{t("mainPage:fandomPreLink")}</div>
                         </Col>
                     </Row>
                     <Row>
