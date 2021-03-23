@@ -43,7 +43,7 @@ i18n
                     fandomVanguard: 'Since 2019 I\'m Vanguard member - team which helps make Fandom\'s content available on the widest possible range of devices.',
                     fandomPreLink: 'More details about me you can find *in hobbies*',
                     hobbiesTitle: 'Hobbies',
-                    hobbiesLink: 'Photography, books, chess and other things!',
+                    hobbiesLink: 'Photography, FANDOM, chess and other things!',
                     intro: 'Hello! I am DoubleCookies — person who loves programming, eating cookies, check statistics and many other things!' +
                         'More details about me and my activities can be found below.',
                 },
@@ -93,7 +93,7 @@ i18n
                     fandomVanguard: 'С 2019 года являюсь членом команды Vanguard, которая делает контент ФЭНДОМа доступным для как можно большего количества устройсв.',
                     fandomPreLink: 'Подробнее о моей деятельности написано *в увлечениях*',
                     hobbiesTitle: 'Увлечения',
-                    hobbiesLink: 'Фотография, чтение книг, шахматы и не только! ',
+                    hobbiesLink: 'Фотография, FANDOM, шахматы и не только! ',
                     intro: 'Всем привет! С вами DoubleCookies — тот, кто любит программировать, кушать печенье, изучать статистику и многое другое. ' +
                         'Более подробно обо мне и моей деятельности можно будет прочитать ниже.',
                 },
@@ -122,6 +122,14 @@ i18n
                     jsExp: 'Javascript и прочие связанные с ним вещи. Также активно использую.',
                     otherExp: 'Прочее',
                     githubStats: 'Статистика на GitHub',
+                },
+                hobbiesSection: {
+                    photoTitle: 'Фотография',
+                    photoStart: 'Фотография - ...',
+                    fandomTitle: 'FANDOM',
+                    fandomStart: 'FANDOM - ...',
+                    chessTitle: 'Шахматы',
+                    chessStart: 'Шахматы - ...',
                 }
             }
         }
