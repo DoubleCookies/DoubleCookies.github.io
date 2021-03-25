@@ -24,6 +24,9 @@ function HobbiesPage() {
                     <Row>
                         <Col span={24}>{t("photoStart")}</Col>
                     </Row>
+                    <Row>
+                        <Col span={24}>{t("photoGallery")}</Col>
+                    </Row>
                     <br/>
                     <Row>
                         <Col span={24}><div className="headings text-medium">{t("fandomTitle")}</div></Col>
@@ -31,6 +34,9 @@ function HobbiesPage() {
                     <Divider className="gradient-border" />
                     <Row>
                         <Col span={24}>{t("fandomStart")}</Col>
+                    </Row>
+                    <Row>
+                        <Col span={24}>{t("fandomVanguard")}</Col>
                     </Row>
                     <br/>
                     <Row>

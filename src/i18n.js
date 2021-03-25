@@ -38,9 +38,6 @@ i18n
                     programmingPreLink: 'More information about me can be found in ',
                     programmingLink: 'this section.',
                     fandomTitle: 'FANDOM',
-                    fandomIntro: 'FANDOM is one of the biggest wiki hosting and fan-site in the world. I actively edit on it since 2016. ' +
-                        'The main direction is to maintain the technical part of project (templates, CSS, JS, even Lua modules); also I improve articles and write new ones.',
-                    fandomVanguard: 'Since 2019 I\'m Vanguard member - team which helps make Fandom\'s content available on the widest possible range of devices.',
                     fandomPreLink: 'More details about me you can find *in hobbies*',
                     hobbiesTitle: 'Hobbies',
                     hobbiesLink: 'Photography, FANDOM, chess and other things!',
@@ -72,6 +69,20 @@ i18n
                     jsExp: 'Javascript and other stuff (Frameworks, libraries, HTML, CSS). Also used a lot.',
                     otherExp: 'Other',
                     githubStats: 'GitHub Stats',
+                },
+                hobbiesSection: {
+                    photoTitle: 'Photography',
+                    photoStart: 'In my free time I like to take photos of nature (usually within the city), but sometimes I experiment with still lifes. ' +
+                        'I began to do it in university and I still like it!',
+                    photoGallery: 'Here you can see some of my photos:',
+                    fandomTitle: 'FANDOM',
+                    fandomStart: 'FANDOM is one of the biggest wiki hosting and fan-site in the world. I actively edit on it since 2016. ' +
+                        'The main direction is to maintain the technical part of project (templates, CSS, JS, even Lua modules); also I improve articles and write new ones.',
+                    fandomVanguard: 'Since 2019 I\'m Vanguard member - team which helps make Fandom\'s content available on the widest possible range of devices.',
+                    chessTitle: 'Chess',
+                    chessStart: 'I began to play chess at 4 (chess, of course, are more complicated than cars and robots but a way more interesting). ' +
+                        'Also I participated in school and university competitions and took 1-3 places as a part of teams.' +
+                        'Nowadays I play chess not so often and mostly online.',
                 }
             },
             ru: {
@@ -87,11 +98,6 @@ i18n
                     programmingPreLink: 'Больше информации обо мне можно найти в ',
                     programmingLink: 'соответствующем разделе.',
                     fandomTitle: 'FANDOM',
-                    fandomIntro: 'FANDOM — это один из крупнейших вики-хостингов и сайтов для фанатов. Активно редактирую на нём начиная с ' +
-                        '2016 года. Основным направлением является поддержание технической части википроектов (шаблоны, CSS, JS, в редких случаях — Lua); помимо этого ' +
-                        'дорабатываю имеющиеся статьи и иногда создаю новые.',
-                    fandomVanguard: 'С 2019 года являюсь членом команды Vanguard, которая делает контент ФЭНДОМа доступным для как можно большего количества устройсв.',
-                    fandomPreLink: 'Подробнее о моей деятельности написано *в увлечениях*',
                     hobbiesTitle: 'Увлечения',
                     hobbiesLink: 'Фотография, FANDOM, шахматы и не только! ',
                     intro: 'Всем привет! С вами DoubleCookies — тот, кто любит программировать, кушать печенье, изучать статистику и многое другое. ' +
@@ -125,11 +131,18 @@ i18n
                 },
                 hobbiesSection: {
                     photoTitle: 'Фотография',
-                    photoStart: 'Фотография - ...',
+                    photoStart: 'В свободное время люблю фотографировать природу (в основном в пределах города), но иногда и экспериментирую с натюрмортами. ' +
+                        'Начал увлекаться этим в университете, нравится до сих пор.',
+                    photoGallery: 'Ниже можно увидеть некоторые мои фотографии:',
                     fandomTitle: 'FANDOM',
-                    fandomStart: 'FANDOM - ...',
+                    fandomStart: 'FANDOM — это один из крупнейших вики-хостингов и сайтов для фанатов. Активно редактирую на нём начиная с ' +
+                        '2016 года. Основным направлением является поддержание технической части википроектов (шаблоны, CSS, JS, в редких случаях — Lua); помимо этого ' +
+                        'дорабатываю имеющиеся статьи и иногда создаю новые.',
+                    fandomVanguard: 'С 2019 года являюсь членом команды Vanguard, которая делает контент ФЭНДОМа доступным для как можно большего количества устройств.',
                     chessTitle: 'Шахматы',
-                    chessStart: 'Шахматы - ...',
+                    chessStart: 'Впервые познакомился с ними в 4 года (шахматы, конечно, сложнее машинок и роботов, но куда интереснее). ' +
+                        'Принимал участие в школьных и университетских соревнованиях, есть занимал 1-3 места в составах команд.' +
+                        'Сейчас играю не так часто, в основном - онлайн.',
                 }
             }
         }
