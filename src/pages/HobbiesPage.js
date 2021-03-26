@@ -1,5 +1,5 @@
 import React from 'react';
-import {Col, Divider, Layout, Row} from 'antd';
+import {Col, Divider, Layout, Row, Image} from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
@@ -24,8 +24,85 @@ function HobbiesPage() {
                     <Row>
                         <Col span={24}>{t("photoStart")}</Col>
                     </Row>
-                    <Row>
+                    <Row style={{marginBottom: 10}}>
                         <Col span={24}>{t("photoGallery")}</Col>
+                    </Row>
+                    <Row style={{lineHeight: 0, textAlign: 'center'}}>
+                        <Col span={24}>
+                            <Image.PreviewGroup>
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_0935_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_0935.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_2171_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_2171.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_2456_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_2456.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_2901_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_2901.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_2929_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_2929.jpg'
+                                    }}
+                                />
+
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_3823_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_3823.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_4043_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_4043.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_6172_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_6172.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_6290_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_6290.jpg'
+                                    }}
+                                />
+                                <Image
+                                    width={160}
+                                    src={process.env.PUBLIC_URL + '/previewImages/IMG_6600_preview.jpg'}
+                                    preview={{
+                                        src: process.env.PUBLIC_URL + '/images/IMG_6600.jpg'
+                                    }}
+                                />
+                            </Image.PreviewGroup>
+                        </Col>
                     </Row>
                     <br/>
                     <Row>

@@ -9,7 +9,7 @@
 @media only screen and (max-width: 350px) {
     .footer-font {
         margin-top: 10px;
-        color: gray;
+        color: #504a4a;
         font-size: 12px;
         display: flex;
         justify-content: flex-start;
