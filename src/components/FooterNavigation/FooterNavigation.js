@@ -59,7 +59,7 @@ function FooterNavigation() {
             <div className="footerIcons">
                 <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer"><GithubOutlined style={{fontSize: 32}} /></a>
                 <a href="https://twitter.com/BigDoubleCookie" target="_blank" rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}} /></a>
-                <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank" rel="noopener noreferrer"><FandomIcon className="fandomIcon" style={{width: 32, height: 32}} /></a>
+                <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank" rel="noopener noreferrer" aria-label="Fandom"><FandomIcon className="fandomIcon" style={{width: 32, height: 32}} /></a>
             </div>
             <div className="footer-font">
                 2019-2021 <span role="img" aria-label="cookieEmoji">🍪</span>
