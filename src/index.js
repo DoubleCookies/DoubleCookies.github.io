@@ -6,15 +6,18 @@ import './i18n';
 import MainPage from './pages/MainPage';
 import ProgrammingPage from './pages/ProgrammingPage';
 import HobbiesPage from './pages/HobbiesPage';
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 function Routes() {
     return (
         <BrowserRouter basename={process.env.PUBLIC_URL}>
-            <Switch>
-                <Route exact path="/" component={MainPage} />
-                <Route path="/programming" component={ProgrammingPage} />
-                <Route path="/hobbies" component={HobbiesPage} />
-            </Switch>
+            <ScrollToTop>
+                <Switch>
+                    <Route exact path="/" component={MainPage} />
+                    <Route path="/programming" component={ProgrammingPage} />
+                    <Route path="/hobbies" component={HobbiesPage} />
+                </Switch>
+            </ScrollToTop>
         </BrowserRouter>
     );
 }
