@@ -81,7 +81,7 @@ function ProgrammingPage() {
                         <Col span={24}><div className="headings text-medium">Open source</div></Col>
                     </Row>
                     <Divider className="gradient-border" />
-                    <Row gutter={[0, 12]}>
+                    <Row gutter={[0, 12]} style={{marginBottom: 10}}>
                         <Col span={24}>{t("programmingProject:intro")}</Col>
                     </Row>
                     <Row>

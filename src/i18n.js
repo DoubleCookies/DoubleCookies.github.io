@@ -30,10 +30,9 @@ i18n
                     mainTitle: 'About me',
                     cookies: 'DoubleCookies',
                     programmingTitle: 'Programming',
-                    programmingIntro: 'Now programming is my main activity. I\'m Java-developer with 3 years of experience; ' +
-                        'familiar with technologies like: Spring Boot, JUnit, БД (SQL and NoSQL). ' +
-                        'I have experience in creating new large project and in reworking some existing projects. ' +
-                        'Also I have experience with JS (React, Typescript), HTML and CSS.',
+                    programmingIntro: 'My main activity. I\'m Java-developer with 3 years of experience; ' +
+                        'familiar with Spring Boot, JUnit, DB (SQL and NoSQL), also I have experience with JS (React, Typescript), HTML and CSS. ' +
+                        'I participated in creating new large project and reworking some existing. ',
                     programmingOpenSource: 'Sometimes I make contribution in Open Source — I have my own repositories on GitHub and contribution in other projects.',
                     programmingPreLink: 'More information about me can be found in ',
                     programmingLink: 'this section.',
@@ -90,11 +89,10 @@ i18n
                     mainTitle: 'Обо мне',
                     cookies: 'DoubleCookies',
                     programmingTitle: 'Программирование',
-                    programmingIntro: 'Сейчас программирование является моей основной сферой деятельности. Кратко о себе: Java-разработчик с 3 годами опыта работы; ' +
-                        'знаком с различными связанными технологиями: Spring Boot, JUnit, БД (SQL и NoSQL). ' +
-                        'За этот период времени принял участие как в создании нового масштабного проекта, так и в доработке ряда уже существующих. ' +
-                        'Также есть опыт работы с JS (React, Typescript), HTML и CSS.',
-                    programmingOpenSource: 'Вношу свой небольшой вклад в Open Source — на GitHub работаю над своими проектами и немного помогаю другим.',
+                    programmingIntro: 'Моё основное занятие. Java-разработчик с 3 годами опыта работы; ' +
+                        'знаком с Spring Boot, JUnit, БД (SQL и NoSQL), а также есть опыт работы с JS (React, Typescript), HTML и CSS. ' +
+                        'Принимал участие как в создании нового масштабного проекта, так и в доработке ряда уже существующих.',
+                    programmingOpenSource: 'Иногда вношу вклад в Open Source — на GitHub работаю над своими проектами и немного помогаю другим.',
                     programmingPreLink: 'Больше информации обо мне можно найти в ',
                     programmingLink: 'соответствующем разделе.',
                     fandomTitle: 'FANDOM',
