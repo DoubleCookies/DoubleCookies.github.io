@@ -40,7 +40,7 @@ i18n
                     fandomPreLink: 'More details about me you can find *in hobbies*',
                     hobbiesTitle: 'Hobbies',
                     hobbiesLink: 'Photography, FANDOM, chess and other things!',
-                    intro: 'Hello! I am DoubleCookies — person who loves programming, eating cookies, check statistics and many other things!' +
+                    intro: 'Hello! I am DoubleCookies — person who loves programming, eating cookies, check statistics and other things!' +
                         'More details about me and my activities can be found below.',
                 },
                 aboutThisPage: {
@@ -98,7 +98,7 @@ i18n
                     fandomTitle: 'FANDOM',
                     hobbiesTitle: 'Увлечения',
                     hobbiesLink: 'Фотография, FANDOM, шахматы и не только! ',
-                    intro: 'Всем привет! С вами DoubleCookies — тот, кто любит программировать, кушать печенье, изучать статистику и многое другое. ' +
+                    intro: 'Всем привет! С вами DoubleCookies — тот, кто любит программировать, кушать печенье, изучать статистику и не только. ' +
                         'Более подробно обо мне и моей деятельности можно будет прочитать ниже.',
                 },
                 aboutThisPage: {
