@@ -1,4 +1,4 @@
-@import '~antd/dist/antd.css';
+@import '~antd/dist/antd.less';
 
 .ant-layout-header {
     height: 32px;
@@ -8,6 +8,14 @@
 .ant-list-split .ant-list-item {
     border-color: #ded5c3;
 }
+
+//.ant-menu-horizontal > .ant-menu-item-selected a {
+//    color: red;
+//}
+//
+//.ant-menu-horizontal > .ant-menu-item a:hover {
+//    color: blue;
+//}
 
 .content-main {
     font-size: 18px;
@@ -30,11 +38,11 @@
 }
 
 .text-big {
-    font-size: max(6vmin, 28px);
+    font-size: ~"max(6vmin, 28px)";
 }
 
 .text-medium {
-    font-size: max(3.7vmin, 24px);
+    font-size: ~"max(3.7vmin, 24px)";
 }
 
 .text-miniMedium {
