@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0480be69.chunk.css",
+    "main.js": "/static/js/main.a2dc196f.chunk.js",
+    "main.js.map": "/static/js/main.a2dc196f.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.15e679b5.js",
+    "runtime-main.js.map": "/static/js/runtime-main.15e679b5.js.map",
+    "static/js/2.189f2f4e.chunk.js": "/static/js/2.189f2f4e.chunk.js",
+    "static/js/2.189f2f4e.chunk.js.map": "/static/js/2.189f2f4e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.6de15b174893c6edbe8ad98a40aa8e99.js": "/precache-manifest.6de15b174893c6edbe8ad98a40aa8e99.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.0480be69.chunk.css.map": "/static/css/main.0480be69.chunk.css.map",
+    "static/js/2.189f2f4e.chunk.js.LICENSE.txt": "/static/js/2.189f2f4e.chunk.js.LICENSE.txt",
+    "static/media/ChocoCookie.webp": "/static/media/ChocoCookie.6986b791.webp",
+    "static/media/DoubleCookies.webp": "/static/media/DoubleCookies.d5962e31.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.15e679b5.js",
+    "static/js/2.189f2f4e.chunk.js",
+    "static/css/main.0480be69.chunk.css",
+    "static/js/main.a2dc196f.chunk.js"
+  ]
+}
