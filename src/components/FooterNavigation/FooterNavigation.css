@@ -16,7 +16,7 @@
     }
 }
 
-.footerImg {
+.footer-img {
     position: absolute;
     right: 0;
     width: 150px;
@@ -24,7 +24,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .footerImg {
+    .footer-img {
         position: absolute;
         right: -45px;
         width: 80px;
@@ -32,12 +32,12 @@
     }
 }
 
-.footerIcons {
+.footer-icons {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
 }
 
-.footerIcons > * {
+.footer-icons > * {
     margin-right: 16px;
 }

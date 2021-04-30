@@ -55,8 +55,8 @@ function FooterNavigation() {
     );
 
     return(
-        <div className="footerBlock" style={{position: 'relative'}}>
-            <div className="footerIcons">
+        <div style={{position: 'relative'}}>
+            <div className="footer-icons">
                 <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer"><GithubOutlined style={{fontSize: 32}} /></a>
                 <a href="https://twitter.com/BigDoubleCookie" target="_blank" rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}} /></a>
                 <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank" rel="noopener noreferrer" aria-label="Fandom"><FandomIcon className="fandomIcon" style={{width: 32, height: 32}} /></a>
@@ -65,7 +65,7 @@ function FooterNavigation() {
                 2019-2021 <span role="img" aria-label="cookieEmoji">🍪</span>
             </div>
             <Popover content={content} style={{paddingRight: 20}} placement="topRight">
-                <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footerImg"} />
+                <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footer-img"} />
             </Popover>
         </div>
     );

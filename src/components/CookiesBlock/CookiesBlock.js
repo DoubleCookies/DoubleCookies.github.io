@@ -10,8 +10,8 @@ function CookiesBlock(props) {
         <div className="content-title">
             <Row type="flex" justify="center">
                 <Col>
-                    <div className="myImgWrapper">
-                        <Image preview={false} src={logo} alt={"DoubleCookies"} className={"myImg u--fadeInDown"} />
+                    <div className="cookies-img-wrapper">
+                        <Image preview={false} src={logo} alt={"DoubleCookies"} className={"cookies-img u--fadeInDown"} />
                     </div>
 
                 </Col>
