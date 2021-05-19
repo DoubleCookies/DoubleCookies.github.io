@@ -6,15 +6,13 @@ import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 
-const {Header, Content, Footer} = Layout;
+const {Content} = Layout;
 
 function MainPage() {
     const {t} = useTranslation(['mainPage']);
     return (
         <Layout className="layout">
-            <Header>
-                <HeaderNavigation selectedKeys={['1']}/>
-            </Header>
+            <HeaderNavigation selectedKeys={['1']}/>
             <Content>
                 <CookiesBlock name={"cookies"} />
                 <div className="content-main">
@@ -44,11 +42,8 @@ function MainPage() {
                         <Col span={24}><Link to="/hobbies">{t("mainPage:hobbiesLink")}</Link></Col>
                     </Row>
                 </div>
-                <Divider className="gradient-border-end" />
             </Content>
-            <Footer style={{paddingTop: 10, overflowY: 'hidden'}}>
-                <FooterNavigation />
-            </Footer>
+            <FooterNavigation />
         </Layout>
     );
 }

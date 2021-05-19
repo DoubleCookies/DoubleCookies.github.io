@@ -1,3 +1,11 @@
+.footer-block {
+    padding: 10px 0 24px 0;
+    overflow-y: hidden;
+    width: 100%;
+    position: relative;
+    margin-top: auto;
+}
+
 .footer-font {
     margin-top: 10px;
     color: #504a4a;
@@ -18,7 +26,7 @@
 
 .footer-img {
     position: absolute;
-    right: 0;
+    right: 50px;
     width: 150px;
     top: -10px;
 }
@@ -26,7 +34,7 @@
 @media only screen and (max-width: 600px) {
     .footer-img {
         position: absolute;
-        right: -45px;
+        right: 5px;
         width: 80px;
         top: -10px;
     }
@@ -40,4 +48,10 @@
 
 .footer-icons > * {
     margin-right: 16px;
+}
+
+.gradient-border-end {
+    background: rgb(234, 197, 91);
+    height: 5px;
+    width: 100%;
 }

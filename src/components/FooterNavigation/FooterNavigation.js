@@ -1,10 +1,12 @@
 import React from 'react';
 import {GithubOutlined, TwitterOutlined} from '@ant-design/icons';
 import FandomIcon from '../FandomIcon/FandomIcon';
-import {List, Popover} from 'antd';
+import { Divider, Layout, List, Popover } from 'antd';
 import chocolateCookie from '../../images/ChocoCookie.webp';
 import './FooterNavigation.css';
 import {useTranslation} from 'react-i18next';
+
+const {Footer} = Layout;
 
 function FooterNavigation() {
     const {t} = useTranslation(['aboutThisPage']);
@@ -55,19 +57,22 @@ function FooterNavigation() {
     );
 
     return(
-        <div style={{position: 'relative'}}>
-            <div className="footer-icons">
-                <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer"><GithubOutlined style={{fontSize: 32}} /></a>
-                <a href="https://twitter.com/BigDoubleCookie" target="_blank" rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}} /></a>
-                <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank" rel="noopener noreferrer" aria-label="Fandom"><FandomIcon className="fandomIcon" style={{width: 32, height: 32}} /></a>
+        <Footer className="footer-block">
+            <Divider className="gradient-border-end" />
+            <div style={{position: 'relative'}}>
+                <div className="footer-icons">
+                    <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer"><GithubOutlined style={{fontSize: 32}} /></a>
+                    <a href="https://twitter.com/BigDoubleCookie" target="_blank" rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}} /></a>
+                    <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank" rel="noopener noreferrer" aria-label="Fandom"><FandomIcon className="fandomIcon" style={{width: 32, height: 32}} /></a>
+                </div>
+                <div className="footer-font">
+                    2019-2021 <span role="img" aria-label="cookieEmoji">🍪</span>
+                </div>
+                <Popover content={content} style={{paddingRight: 20}} placement="topRight">
+                    <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footer-img"} />
+                </Popover>
             </div>
-            <div className="footer-font">
-                2019-2021 <span role="img" aria-label="cookieEmoji">🍪</span>
-            </div>
-            <Popover content={content} style={{paddingRight: 20}} placement="topRight">
-                <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footer-img"} />
-            </Popover>
-        </div>
+        </Footer>
     );
 }
 

@@ -5,15 +5,13 @@ import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 import {useTranslation} from "react-i18next";
 
-const {Header, Content, Footer} = Layout;
+const {Content} = Layout;
 
 function HobbiesPage() {
     const {t} = useTranslation(['hobbiesSection']);
     return (
         <Layout className="layout">
-            <Header>
-                <HeaderNavigation selectedKeys={['4']}/>
-            </Header>
+            <HeaderNavigation selectedKeys={['4']}/>
             <Content>
                 <CookiesBlock name={"hobbiesTitle"} />
                 <div className="content-main">
@@ -134,12 +132,8 @@ function HobbiesPage() {
                         <Col span={24}>{t("chessStart")}</Col>
                     </Row>
                 </div>
-                <Divider className="gradient-border-end" />
             </Content>
-            <Footer style={{paddingTop: 10, overflowY: 'hidden'}}>
-                <FooterNavigation />
-            </Footer>
-
+            <FooterNavigation />
         </Layout>
     );
 }

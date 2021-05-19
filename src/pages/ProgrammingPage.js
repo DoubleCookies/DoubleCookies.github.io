@@ -7,7 +7,7 @@ import {useTranslation} from "react-i18next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 
-const {Header, Content, Footer} = Layout;
+const {Content} = Layout;
 
 function ProgrammingPage() {
     const {t} = useTranslation(['programmingSection']);
@@ -20,9 +20,7 @@ function ProgrammingPage() {
         ];
     return (
         <Layout className="layout">
-            <Header>
-                <HeaderNavigation selectedKeys={['2']}/>
-            </Header>
+            <HeaderNavigation selectedKeys={['2']}/>
             <Content>
                 <CookiesBlock name={"programmingTitle"} />
                 <div className="content-main">
@@ -109,11 +107,8 @@ function ProgrammingPage() {
                         <ReactTooltip delayShow={50} html />
                     </GitHubCalendar>
                 </div>
-                <Divider className="gradient-border-end" />
             </Content>
-            <Footer style={{paddingTop: 10, overflowY: 'hidden'}}>
-                <FooterNavigation />
-            </Footer>
+            <FooterNavigation />
         </Layout>
     );
 }
