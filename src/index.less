@@ -1,13 +1,16 @@
 @import '~antd/dist/antd.less';
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
 
 .layout {
     display: flex;
     flex-direction: column;
+
     min-height: 100vh;
 }
 
 .ant-layout-header {
     height: 32px;
+
     background-color: white;
 }
 
@@ -16,15 +19,16 @@
 }
 
 .content-main {
-    font-size: 18px;
-    max-width: 900px;
     margin: auto;
+    max-width: 900px;
     padding-left: 24px;
     padding-right: 24px;
+
+    font-size: 18px;
 }
 
 .headings, .headings-medium {
-    font-family: "Century Gothic", "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: "Balsamiq Sans", "Century Gothic", "Segoe UI", "Roboto", sans-serif;
 }
 
 .headings {
@@ -48,15 +52,17 @@
 }
 
 .gradient-border-small {
-    background-image: linear-gradient(to right, rgba(234, 179, 76, 0.31) 25px, transparent 60%);
+    margin: 0 0 6px 0;
     border: 0;
     height: 4px;
-    margin: 0 0 6px 0;
+
+    background-image: linear-gradient(to right, rgba(234, 179, 76, 0.31) 25px, transparent 60%);
 }
 
 .gradient-border {
-    background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
+    margin: 0 0 12px 0;
     border: 0;
     height: 4px;
-    margin: 0 0 12px 0;
+
+    background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
 }

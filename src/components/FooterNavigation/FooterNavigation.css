@@ -1,42 +1,34 @@
 .footer-block {
-    padding: 10px 0 24px 0;
-    overflow-y: hidden;
-    width: 100%;
     position: relative;
+    overflow-y: hidden;
+
     margin-top: auto;
+    width: 100%;
+    padding: 10px 0 24px 0;
 }
 
 .footer-font {
-    margin-top: 10px;
-    color: #504a4a;
-    font-size: 12px;
     display: flex;
     justify-content: center;
-}
 
-@media only screen and (max-width: 350px) {
-    .footer-font {
-        margin-top: 10px;
-        color: #504a4a;
-        font-size: 12px;
-        display: flex;
-        justify-content: flex-start;
-    }
+    margin-top: 10px;
+
+    color: #504a4a;
+    font-size: 12px;
 }
 
 .footer-img {
     position: absolute;
     right: 50px;
-    width: 150px;
     top: -10px;
+
+    width: 150px;
 }
 
 @media only screen and (max-width: 600px) {
     .footer-img {
-        position: absolute;
         right: 5px;
         width: 80px;
-        top: -10px;
     }
 }
 
@@ -51,7 +43,8 @@
 }
 
 .gradient-border-end {
-    background: rgb(234, 197, 91);
     height: 5px;
     width: 100%;
+
+    background: rgb(234, 197, 91);
 }
