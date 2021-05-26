@@ -8,6 +8,9 @@ const FandomSvg = () => (
     </svg>
 );
 
+/**
+ * Fandom Icon for footer
+ */
 function FandomIcon(props) {
     return <Icon component={FandomSvg} {...props} />;
 }

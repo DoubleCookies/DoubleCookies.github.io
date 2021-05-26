@@ -8,6 +8,7 @@ import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 
 const {Content} = Layout;
 
+//TODO replace div with h2-h3
 function MainPage() {
     const {t} = useTranslation(['mainPage']);
     return (

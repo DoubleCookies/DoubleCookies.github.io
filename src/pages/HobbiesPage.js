@@ -7,6 +7,7 @@ import {useTranslation} from "react-i18next";
 
 const {Content} = Layout;
 
+//TODO replace div with h2-h3
 function HobbiesPage() {
     const {t} = useTranslation(['hobbiesSection']);
     return (

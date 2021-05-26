@@ -4,6 +4,9 @@ import React from 'react';
 import './CookiesBlock.css'
 import {useTranslation} from 'react-i18next';
 
+/**
+ * Block with cookies image and page title
+ */
 function CookiesBlock(props) {
     const {t} = useTranslation(['mainPage']);
     return(

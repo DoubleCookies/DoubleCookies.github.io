@@ -9,6 +9,7 @@ import GitHubCalendar from "react-github-calendar";
 
 const {Content} = Layout;
 
+//TODO replace div with h2-h3, change project list
 function ProgrammingPage() {
     const {t} = useTranslation(['programmingSection']);
     const data = [
