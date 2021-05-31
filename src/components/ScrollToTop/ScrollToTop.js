@@ -1,5 +1,5 @@
-import {withRouter} from "react-router-dom";
-import {Component} from "react";
+import { withRouter } from "react-router-dom";
+import { Component } from "react";
 
 /**
  * Special component for scroll to top on new page

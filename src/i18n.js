@@ -55,6 +55,7 @@ i18n
                     intro: 'There are some repositories on my Github-page:',
                     GDStatistics: 'Project about collecting statistics from Geometry Dash.',
                     stats4wiki: 'Almost the same as previous but more specific',
+                    wikiWamLog: 'WAM ranking charts for some wikis',
                     StringSwap: 'Small app for text processing',
                     MazeGeneratorAndSolver: 'Maze generation and solving. Also has rendering for both processes',
                     AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
@@ -106,13 +107,14 @@ i18n
                     ghPages: 'Место размещение web-страницы',
                     i18next: 'Для поддержки разных языков',
                     reactRouter: 'Для навигации',
-                    cookie: 'Я весьма умное печенье. Что-то знаю про всё это.'
+                    cookie: 'Я умное печенье. Что-то знаю про всё это.'
                 },
                 programmingProject: {
                     title: 'Проекты',
                     intro: 'На моей GitHub-странице находятся ряд репозиториев с проектами:',
                     GDStatistics: 'Проект, посвящённый сбору статистики из игры Geometry Dash.',
                     stats4wiki: 'Похож на предыдущий проект, но более узконаправленный.',
+                    wikiWamLog: 'Графики рейтинга WAM для нескольких википроектов',
                     StringSwap: 'Небольшое приложение для работы с текстом',
                     MazeGeneratorAndSolver: 'Проект по генерации и решения лабиринтов. Присутствует отрисовка всего процесса создания и решения.',
                     AssociativeRules: 'Старый проект, созданный ещё в университете. Позволяет произвести анализ ассоциативных правил в рамках задачи медицинской диагностики.',

@@ -1,9 +1,9 @@
 import React from 'react';
-import {Col, Divider, Layout, List, Row} from 'antd';
+import { Col, Divider, Layout, List, Row } from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 
@@ -13,12 +13,37 @@ const {Content} = Layout;
 function ProgrammingPage() {
     const {t} = useTranslation(['programmingSection']);
     const data = [
-        {title: 'GdStatistics', description: t("programmingProject:GDStatistics")},
-        {title: 'stats4wiki', description: t("programmingProject:stats4wiki")},
-        {title: 'StringSwap', description: t("programmingProject:StringSwap")},
-        {title: 'MazeGeneratorAndSolver', description: t("programmingProject:MazeGeneratorAndSolver")},
-        {title: 'AssociativeRules', description: t("programmingProject:AssociativeRules")},
-        ];
+        {
+            title: 'GdStatistics',
+            description: t("programmingProject:GDStatistics"),
+            link: "https://github.com/DoubleCookies/GDStatistics"
+        },
+        {
+            title: 'stats4wiki',
+            description: t("programmingProject:stats4wiki"),
+            link: "https://doublecookies.github.io/stats4wiki"
+        },
+        {
+            title: 'wiki-wam-log',
+            description: t("programmingProject:wikiWamLog"),
+            link: "https://doublecookies.github.io/wiki-wam-log/"
+        },
+        {
+            title: 'StringSwap',
+            description: t("programmingProject:StringSwap"),
+            link: "https://github.com/DoubleCookies/StringSwap"
+        },
+        {
+            title: 'MazeGeneratorAndSolver',
+            description: t("programmingProject:MazeGeneratorAndSolver"),
+            link: "https://github.com/DoubleCookies/MazeGeneratorAndSolver"
+        },
+        {
+            title: 'AssociativeRules',
+            description: t("programmingProject:AssociativeRules"),
+            link: "https://github.com/DoubleCookies/AssociativeRules"
+        },
+    ];
     return (
         <Layout className="layout">
             <HeaderNavigation selectedKeys={['2']}/>
@@ -86,13 +111,14 @@ function ProgrammingPage() {
                     <Row>
                         <Col span={24}>
                             <List
-                                bordered
                                 itemLayout="vertical"
+                                size="small"
+                                className="progList"
                                 dataSource={data}
                                 renderItem={item => (
                                     <List.Item>
                                         <List.Item.Meta
-                                            title={<a href={"https://github.com/DoubleCookies/" + item.title}>{item.title}</a>}
+                                            title={<a href={item.link}>{item.title}</a>}
                                             description={item.description}
                                         />
                                     </List.Item>

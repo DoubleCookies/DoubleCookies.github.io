@@ -1,9 +1,9 @@
 import React from 'react';
-import {Col, Divider, Layout, Row, Image} from 'antd';
+import { Col, Divider, Image, Layout, Row } from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
-import {useTranslation} from "react-i18next";
+import { useTranslation } from "react-i18next";
 
 const {Content} = Layout;
 
@@ -14,12 +14,14 @@ function HobbiesPage() {
         <Layout className="layout">
             <HeaderNavigation selectedKeys={['4']}/>
             <Content>
-                <CookiesBlock name={"hobbiesTitle"} />
+                <CookiesBlock name={"hobbiesTitle"}/>
                 <div className="content-main">
                     <Row>
-                        <Col span={24}><div className="headings text-medium">{t("photoTitle")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-medium">{t("photoTitle")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border" />
+                    <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24}>{t("photoStart")}</Col>
                     </Row>
@@ -115,9 +117,11 @@ function HobbiesPage() {
                     </Row>
                     <br/>
                     <Row>
-                        <Col span={24}><div className="headings text-medium">{t("fandomTitle")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-medium">{t("fandomTitle")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border" />
+                    <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24}>{t("fandomStart")}</Col>
                     </Row>
@@ -126,15 +130,17 @@ function HobbiesPage() {
                     </Row>
                     <br/>
                     <Row>
-                        <Col span={24}><div className="headings text-medium">{t("chessTitle")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-medium">{t("chessTitle")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border" />
+                    <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24}>{t("chessStart")}</Col>
                     </Row>
                 </div>
             </Content>
-            <FooterNavigation />
+            <FooterNavigation/>
         </Layout>
     );
 }
