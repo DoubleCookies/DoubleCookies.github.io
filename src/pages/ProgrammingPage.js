@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Col, Divider, Layout, List, Row } from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
@@ -6,11 +6,26 @@ import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 import { useTranslation } from "react-i18next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
+import i18n from "../i18n";
 
 const {Content} = Layout;
 
 //TODO replace div with h2-h3, change project list
 function ProgrammingPage() {
+
+    // Kinda weird but works. Github calendar need some time to render.
+    useEffect(() => {
+        setTimeout(() => {
+            if (i18n.language === 'ru') {
+                let calendarSummary = document.getElementsByClassName("react-github-calendar__meta")[0];
+                if (calendarSummary) {
+                    let replacement = calendarSummary.innerHTML.replace("Last year – ", "За последний год – ").replace("contributions", "изменений");
+                    console.log('replacement', replacement);
+                    calendarSummary.innerHTML = replacement;
+                }
+            }
+        }, 1000);
+    });
     const {t} = useTranslation(['programmingSection']);
     const data = [
         {
@@ -48,19 +63,23 @@ function ProgrammingPage() {
         <Layout className="layout">
             <HeaderNavigation selectedKeys={['2']}/>
             <Content>
-                <CookiesBlock name={"programmingTitle"} />
+                <CookiesBlock name={"programmingTitle"}/>
                 <div className="content-main">
                     <Row>
-                        <Col span={24}><div className="headings text-medium">{t("exp")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-medium">{t("exp")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border" />
+                    <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24}>{t("start")}</Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings-medium text-miniMedium">Java</div></Col>
+                        <Col span={24}>
+                            <div className="headings-medium text-miniMedium">Java</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border-small" />
+                    <Divider className="gradient-border-small"/>
                     <Row>
                         <Col span={24}>
                             <div>{t("javaExp")}</div>
@@ -73,9 +92,11 @@ function ProgrammingPage() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings-medium text-miniMedium">Web</div></Col>
+                        <Col span={24}>
+                            <div className="headings-medium text-miniMedium">Web</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border-small" />
+                    <Divider className="gradient-border-small"/>
                     <Row>
                         <Col span={24}>
                             <div>{t("jsExp")}</div>
@@ -90,9 +111,11 @@ function ProgrammingPage() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings-medium text-miniMedium">{t("otherExp")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings-medium text-miniMedium">{t("otherExp")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border-small" />
+                    <Divider className="gradient-border-small"/>
                     <Row>
                         <Col span={24}>
                             <ul>
@@ -102,11 +125,19 @@ function ProgrammingPage() {
                     </Row>
 
                     <Row>
-                        <Col span={24}><div className="headings text-medium">Open source</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-medium">Open source</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border" />
+                    <Divider className="gradient-border"/>
                     <Row gutter={[0, 12]} style={{marginBottom: 10}}>
-                        <Col span={24}>{t("programmingProject:intro")}</Col>
+                        <Col span={24}>
+                            <div>{t("programmingProject:preIntro")}<a href="https://github.com/DoubleCookies"
+                                                                      target="_blank" rel="noopener noreferrer">
+                                {t("programmingProject:introLink")}
+                            </a>{t("programmingProject:intro")}</div>
+
+                        </Col>
                     </Row>
                     <Row>
                         <Col span={24}>
@@ -123,19 +154,21 @@ function ProgrammingPage() {
                                         />
                                     </List.Item>
                                 )}
-                                />
+                            />
                         </Col>
                     </Row>
                     <Row>
-                        <Col span={24}><div className="headings text-miniMedium">{t("githubStats")}</div></Col>
+                        <Col span={24}>
+                            <div className="headings text-miniMedium">{t("githubStats")}</div>
+                        </Col>
                     </Row>
-                    <Divider className="gradient-border-small" />
+                    <Divider className="gradient-border-small"/>
                     <GitHubCalendar username="DoubleCookies">
-                        <ReactTooltip delayShow={50} html />
+                        <ReactTooltip delayShow={50} html/>
                     </GitHubCalendar>
                 </div>
             </Content>
-            <FooterNavigation />
+            <FooterNavigation/>
         </Layout>
     );
 }
