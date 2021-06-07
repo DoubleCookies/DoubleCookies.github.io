@@ -52,6 +52,7 @@ i18n
                 },
                 programmingProject: {
                     title: 'Projects',
+                    link: "There are some repositories <1>on my Github-page</1>:",
                     preIntro: 'There are some repositories ',
                     introLink: 'on my Github-page',
                     intro: ':',
@@ -113,9 +114,7 @@ i18n
                 },
                 programmingProject: {
                     title: 'Проекты',
-                    preIntro: 'На моей ',
-                    introLink: 'GitHub-странице ',
-                    intro: 'находятся ряд репозиториев с проектами:',
+                    link: "На моей <1>GitHub-странице</1> находятся ряд репозиториев с проектами:",
                     GDStatistics: 'Проект, посвящённый сбору статистики из игры Geometry Dash.',
                     stats4wiki: 'Похож на предыдущий проект, но более узконаправленный.',
                     wikiWamLog: 'Графики рейтинга WAM для нескольких википроектов',

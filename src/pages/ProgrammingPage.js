@@ -3,7 +3,7 @@ import { Col, Divider, Layout, List, Row } from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
 import i18n from "../i18n";
@@ -16,15 +16,17 @@ function ProgrammingPage() {
     // Kinda weird but works. Github calendar need some time to render.
     useEffect(() => {
         setTimeout(() => {
+            let calendarSummary = document.getElementsByClassName("react-github-calendar__meta")[0];
             if (i18n.language === 'ru') {
-                let calendarSummary = document.getElementsByClassName("react-github-calendar__meta")[0];
                 if (calendarSummary) {
-                    let replacement = calendarSummary.innerHTML.replace("Last year – ", "За последний год – ").replace("contributions", "изменений");
-                    console.log('replacement', replacement);
-                    calendarSummary.innerHTML = replacement;
+                    calendarSummary.innerHTML = calendarSummary.innerHTML.replace("Last year – ", "За последний год – ").replace("contributions", "изменений");
+                }
+            } else {
+                if (calendarSummary) {
+                    calendarSummary.innerHTML = calendarSummary.innerHTML.replace("За последний год – ", "Last year – ").replace("изменений", "contributions");
                 }
             }
-        }, 1000);
+        }, 500);
     });
     const {t} = useTranslation(['programmingSection']);
     const data = [
@@ -132,11 +134,9 @@ function ProgrammingPage() {
                     <Divider className="gradient-border"/>
                     <Row gutter={[0, 12]} style={{marginBottom: 10}}>
                         <Col span={24}>
-                            <div>{t("programmingProject:preIntro")}<a href="https://github.com/DoubleCookies"
-                                                                      target="_blank" rel="noopener noreferrer">
-                                {t("programmingProject:introLink")}
-                            </a>{t("programmingProject:intro")}</div>
-
+                            <Trans i18nKey="programmingProject:link">There are some repositories <a
+                                href="https://github.com/DoubleCookies"
+                                target="_blank" rel="noopener noreferrer">on my Github-page</a>:</Trans>
                         </Col>
                     </Row>
                     <Row>
