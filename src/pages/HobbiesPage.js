@@ -7,18 +7,17 @@ import { useTranslation } from "react-i18next";
 
 const {Content} = Layout;
 
-//TODO replace div with h2-h3
 function HobbiesPage() {
     const {t} = useTranslation(['hobbiesSection']);
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={['4']}/>
+            <HeaderNavigation selectedKeys={['hobbies']}/>
             <Content>
                 <CookiesBlock name={"hobbiesTitle"}/>
                 <div className="content-main">
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-medium">{t("photoTitle")}</div>
+                            <h2 className="headings text-medium">{t("photoTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
@@ -118,7 +117,7 @@ function HobbiesPage() {
                     <br/>
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-medium">{t("fandomTitle")}</div>
+                            <h2 className="headings text-medium">{t("fandomTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
@@ -131,7 +130,7 @@ function HobbiesPage() {
                     <br/>
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-medium">{t("chessTitle")}</div>
+                            <h2 className="headings text-medium">{t("chessTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>

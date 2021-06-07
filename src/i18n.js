@@ -32,8 +32,7 @@ i18n
                         'familiar with Spring Boot, JUnit, DB (SQL and NoSQL), also I have experience with JS (React, Typescript), HTML and CSS. ' +
                         'I participated in creating new large project and reworking some existing. ',
                     programmingOpenSource: 'Sometimes I make contribution in Open Source — I have my own repositories on GitHub and contribution in other projects.',
-                    programmingPreLink: 'More information about me can be found in ',
-                    programmingLink: 'this section.',
+                    programmingLink: "More information about me can be found in <1>this section</1>.",
                     fandomTitle: 'FANDOM',
                     fandomPreLink: 'More details about me you can find *in hobbies*',
                     hobbiesTitle: 'Hobbies',
@@ -95,8 +94,7 @@ i18n
                         'знаком с Spring Boot, JUnit, БД (SQL и NoSQL), а также есть опыт работы с JS (React, Typescript), HTML и CSS. ' +
                         'Принимал участие как в создании нового масштабного проекта, так и в доработке ряда уже существующих.',
                     programmingOpenSource: 'Иногда вношу вклад в Open Source — на GitHub работаю над своими проектами и немного помогаю другим.',
-                    programmingPreLink: 'Больше информации обо мне можно найти в ',
-                    programmingLink: 'соответствующем разделе.',
+                    programmingLink: 'Больше информации обо мне можно найти в <1>соответствующем разделе</1>.',
                     fandomTitle: 'FANDOM',
                     hobbiesTitle: 'Увлечения',
                     hobbiesLink: 'Фотография, FANDOM, шахматы и не только! ',

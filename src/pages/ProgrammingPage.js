@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import { Col, Divider, Layout, List, Row } from 'antd';
 import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
@@ -6,28 +6,12 @@ import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 import { Trans, useTranslation } from "react-i18next";
 import ReactTooltip from "react-tooltip";
 import GitHubCalendar from "react-github-calendar";
-import i18n from "../i18n";
 
 const {Content} = Layout;
 
-//TODO replace div with h2-h3, change project list
+//TODO: change project list
 function ProgrammingPage() {
 
-    // Kinda weird but works. Github calendar need some time to render.
-    useEffect(() => {
-        setTimeout(() => {
-            let calendarSummary = document.getElementsByClassName("react-github-calendar__meta")[0];
-            if (i18n.language === 'ru') {
-                if (calendarSummary) {
-                    calendarSummary.innerHTML = calendarSummary.innerHTML.replace("Last year – ", "За последний год – ").replace("contributions", "изменений");
-                }
-            } else {
-                if (calendarSummary) {
-                    calendarSummary.innerHTML = calendarSummary.innerHTML.replace("За последний год – ", "Last year – ").replace("изменений", "contributions");
-                }
-            }
-        }, 500);
-    });
     const {t} = useTranslation(['programmingSection']);
     const data = [
         {
@@ -63,13 +47,13 @@ function ProgrammingPage() {
     ];
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={['2']}/>
+            <HeaderNavigation selectedKeys={['programming']}/>
             <Content>
                 <CookiesBlock name={"programmingTitle"}/>
                 <div className="content-main">
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-medium">{t("exp")}</div>
+                            <h2 className="headings text-medium">{t("exp")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
@@ -78,7 +62,7 @@ function ProgrammingPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <div className="headings-medium text-miniMedium">Java</div>
+                            <h3 className="headings-medium text-miniMedium">Java</h3>
                         </Col>
                     </Row>
                     <Divider className="gradient-border-small"/>
@@ -95,7 +79,7 @@ function ProgrammingPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <div className="headings-medium text-miniMedium">Web</div>
+                            <h3 className="headings-medium text-miniMedium">Web</h3>
                         </Col>
                     </Row>
                     <Divider className="gradient-border-small"/>
@@ -114,7 +98,7 @@ function ProgrammingPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <div className="headings-medium text-miniMedium">{t("otherExp")}</div>
+                            <h3 className="headings-medium text-miniMedium">{t("otherExp")}</h3>
                         </Col>
                     </Row>
                     <Divider className="gradient-border-small"/>
@@ -128,7 +112,7 @@ function ProgrammingPage() {
 
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-medium">Open source</div>
+                            <h2 className="headings text-medium">Open source</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
@@ -159,7 +143,7 @@ function ProgrammingPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <div className="headings text-miniMedium">{t("githubStats")}</div>
+                            <h3 className="headings text-miniMedium">{t("githubStats")}</h3>
                         </Col>
                     </Row>
                     <Divider className="gradient-border-small"/>
