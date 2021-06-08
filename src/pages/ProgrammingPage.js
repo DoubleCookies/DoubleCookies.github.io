@@ -9,7 +9,7 @@ import GitHubCalendar from "react-github-calendar";
 
 const {Content} = Layout;
 
-//TODO: change project list
+//TODO: change project list, move blocks to diff components
 function ProgrammingPage() {
 
     const {t} = useTranslation(['programmingSection']);

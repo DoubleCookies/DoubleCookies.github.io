@@ -18,7 +18,7 @@ function MainPage() {
                 <div className="content-main">
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("mainPage:mainTitle")}</h2>
+                            <h2 className="headings text-medium">{t("mainTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
@@ -27,15 +27,15 @@ function MainPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("mainPage:programmingTitle")}</h2>
+                            <h2 className="headings text-medium">{t("programmingTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24}>
-                            <div>{t("mainPage:programmingIntro")}</div>
+                            <div>{t("programmingIntro")}</div>
                             <br/>
-                            <div>{t("mainPage:programmingOpenSource")}</div>
+                            <div>{t("programmingOpenSource")}</div>
                             <br/>
                             <div><Trans i18nKey="mainPage:programmingLink">More information about me can be found in <Link
                                 to="/programming">this section</Link>.</Trans></div>
@@ -43,12 +43,12 @@ function MainPage() {
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("mainPage:hobbiesTitle")}</h2>
+                            <h2 className="headings text-medium">{t("hobbiesTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}><Link to="/hobbies">{t("mainPage:hobbiesLink")}</Link></Col>
+                        <Col span={24}><Link to="/hobbies">{t("hobbiesLink")}</Link></Col>
                     </Row>
                 </div>
             </Content>
