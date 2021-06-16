@@ -41,7 +41,7 @@ function FooterNavigation() {
         <div>
             <List
                 size="small"
-                style={{maxWidth: 400}}
+                style={{maxWidth: 350}}
                 header={<div>{t('title')}</div>}
                 dataSource={data}
                 renderItem={item => <List.Item>
