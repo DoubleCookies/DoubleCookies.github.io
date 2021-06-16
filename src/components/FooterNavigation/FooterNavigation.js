@@ -6,9 +6,9 @@ import chocolateCookie from '../../images/ChocoCookie.webp';
 import './FooterNavigation.css';
 import { useTranslation } from 'react-i18next';
 
-const {Footer} = Layout;
 
 function FooterNavigation() {
+    const {Footer} = Layout;
     const {t} = useTranslation(['aboutThisPage']);
     const data = [
         {

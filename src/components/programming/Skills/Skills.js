@@ -3,7 +3,6 @@ import { useTranslation } from 'react-i18next';
 import React from 'react';
 
 
-
 function Skills() {
     const {t} = useTranslation(['programmingSection']);
 

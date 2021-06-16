@@ -6,14 +6,15 @@ import { GlobalOutlined } from '@ant-design/icons';
 import i18n from '../../i18n';
 import './HeaderNavigation.css'
 
-const {Header} = Layout;
 
 function HeaderNavigation(props) {
+    const {Header} = Layout;
     const {t} = useTranslation(['mainPage']);
     const changeLanguage = (lng) => {
         i18n.changeLanguage(lng).then();
     }
     const {SubMenu} = Menu;
+
     return (
         <Header>
             <Menu
@@ -39,7 +40,6 @@ function HeaderNavigation(props) {
                 </SubMenu>
             </Menu>
         </Header>
-
     );
 }
 

@@ -9,6 +9,7 @@ import { useTranslation } from 'react-i18next';
  */
 function CookiesBlock(props) {
     const {t} = useTranslation(['mainPage']);
+
     return (
         <div className="content-title">
             <Row type="flex" justify="center">
