@@ -25,10 +25,13 @@ function HeaderNavigation(props) {
                 selectedKeys={props.selectedKeys}
                 style={{lineHeight: '32px', height: '32px'}}
             >
+                <Menu.Item key="languageSelector"><GlobalOutlined onClick={() => changeLanguage()} style={{
+                    fontSize: 20,
+                    verticalAlign: 'sub'
+                }}/></Menu.Item>
                 <Menu.Item key="main"><Link to="/">{t('mainTitle')}</Link></Menu.Item>
                 <Menu.Item key="programming"><Link to="/programming">{t('programmingTitle')}</Link></Menu.Item>
                 <Menu.Item key="hobbies"><Link to="/hobbies">{t('hobbiesTitle')}</Link></Menu.Item>
-                <Menu.Item key="languageSelector"><GlobalOutlined onClick={() => changeLanguage()} style={{fontSize: 20, verticalAlign: 'sub'}}/></Menu.Item>
             </Menu>
         </Header>
     );
