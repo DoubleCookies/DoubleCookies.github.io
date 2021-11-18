@@ -7,6 +7,11 @@
     padding: 10px 0 24px 0;
 }
 
+.skills-list .ant-list-header {
+    max-width: 350px;
+    padding-top: 0;
+}
+
 .footer-font {
     display: flex;
     justify-content: center;

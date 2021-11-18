@@ -41,7 +41,7 @@ function FooterNavigation() {
         <div>
             <List
                 size="small"
-                style={{maxWidth: 350}}
+                className="skills-list"
                 header={<div>{t('title')}</div>}
                 dataSource={data}
                 renderItem={item => <List.Item>
@@ -64,7 +64,7 @@ function FooterNavigation() {
                     <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer">
                         <GithubOutlined style={{fontSize: 32}}/>
                     </a>
-                    <a href="https://twitter.com/BigDoubleCookie" target="_blank"
+                    <a href="https://twitter.com/DblCookies" target="_blank"
                        rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}}/>
                     </a>
                     <a href="https://community.fandom.com/wiki/User:DoubleCookies" target="_blank"
