@@ -73,7 +73,7 @@ function FooterNavigation() {
                     </a>
                 </div>
                 <div className="footer-font">
-                    2019-2021 <span role="img" aria-label="cookieEmoji">🍪</span>
+                    2019-2022 <span role="img" aria-label="cookieEmoji">🍪</span>
                 </div>
                 <Popover content={content} style={{paddingRight: 20}} placement="topRight">
                     <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footer-img"}/>
