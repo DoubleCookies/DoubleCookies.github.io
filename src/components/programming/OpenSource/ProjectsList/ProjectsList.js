@@ -40,7 +40,7 @@ function ProjectsList() {
 
     const dataItems = data.map(item =>
         <li key={item.title}>
-            <b><a href={item.link} style={{marginRight: 10}}>{item.title}.</a></b>
+            <a href={item.link} style={{marginRight: 4}}>{item.title}.</a>
             {item.description}
         </li>);
 

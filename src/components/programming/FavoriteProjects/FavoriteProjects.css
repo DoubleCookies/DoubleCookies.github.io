@@ -1,0 +1,7 @@
+.what-list {
+    list-style-type: "⭐";
+}
+
+.what-list li {
+    padding-left: 4px;
+}
