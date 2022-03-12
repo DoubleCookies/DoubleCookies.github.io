@@ -1,6 +1,6 @@
-import { List } from 'antd';
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import { Divider } from 'antd';
 
 
 function ProjectsList() {
@@ -38,21 +38,21 @@ function ProjectsList() {
         },
     ];
 
+    const dataItems = data.map(item =>
+        <li key={item.title}>
+            <b><a href={item.link} style={{marginRight: 10}}>{item.title}.</a></b>
+            {item.description}
+        </li>);
+
     return (
-        <List
-            itemLayout="vertical"
-            size="small"
-            className="projectsList"
-            dataSource={data}
-            renderItem={item => (
-                <List.Item>
-                    <List.Item.Meta
-                        title={<a href={item.link}>{item.title}</a>}
-                        description={item.description}
-                    />
-                </List.Item>
-            )}
-        />
+        <div>
+            <h3 className="headings-medium text-miniMedium">Honorable Mention</h3>
+            <Divider className="gradient-border-small"/>
+            <div style={{marginBottom: 10}}>И ещё несколько проектов, которые стоит упомянуть:</div>
+            <ul>
+                {dataItems}
+            </ul>
+        </div>
     );
 }
 

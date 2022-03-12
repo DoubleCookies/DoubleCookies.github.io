@@ -3,6 +3,7 @@ import { Trans, useTranslation } from 'react-i18next';
 import ProjectsList from './ProjectsList/ProjectsList';
 import GithubCalendar from './GithubCalendar/GithubCalendar';
 import React from 'react';
+import FavoriteProjects from '../FavoriteProjects/FavoriteProjects';
 
 
 function OpenSource() {
@@ -18,9 +19,14 @@ function OpenSource() {
           <Divider className="gradient-border"/>
           <Row gutter={[0, 12]} style={{marginBottom: 10}}>
               <Col span={24}>
-                  <Trans i18nKey="programmingProject:link">There are some repositories <a
+                  <Trans i18nKey="link">There are some repositories <a
                       href="https://github.com/DoubleCookies"
                       target="_blank" rel="noopener noreferrer">on my Github-page</a>:</Trans>
+              </Col>
+          </Row>
+          <Row>
+              <Col span={24}>
+                  <FavoriteProjects/>
               </Col>
           </Row>
           <Row>
