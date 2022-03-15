@@ -23,13 +23,8 @@ function ProjectsList() {
         },
         {
             title: 'StringSwap',
-            description: t("programmingProject:StringSwap"),
+            description: t("StringSwap"),
             link: "https://github.com/DoubleCookies/StringSwap"
-        },
-        {
-            title: 'MazeGeneratorAndSolver',
-            description: t("MazeGeneratorAndSolver"),
-            link: "https://github.com/DoubleCookies/MazeGeneratorAndSolver"
         },
         {
             title: 'AssociativeRules',
@@ -46,9 +41,9 @@ function ProjectsList() {
 
     return (
         <div>
-            <h3 className="headings-medium text-miniMedium">Honorable Mention</h3>
+            <h3 className="headings-medium text-miniMedium">{t("mention")}</h3>
             <Divider className="gradient-border-small"/>
-            <div style={{marginBottom: 10}}>И ещё несколько проектов, которые стоит упомянуть:</div>
+            <div style={{marginBottom: 10}}>{t("mentionProjects")}</div>
             <ul>
                 {dataItems}
             </ul>

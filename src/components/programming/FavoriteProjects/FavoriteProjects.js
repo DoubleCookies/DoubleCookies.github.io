@@ -1,30 +1,44 @@
 import React from 'react';
 import { Divider } from 'antd';
 import './FavoriteProjects.css';
+import { Trans, useTranslation } from 'react-i18next';
 
 function FavoriteProjects() {
-    // const {t} = useTranslation(['programmingProject']);
+    const {t} = useTranslation(['programmingProject']);
+
+    const data = [
+        {
+            title: 'MazeGeneratorAndSolver',
+            description: <div>{'Один из старых проектов, который был создан ради развлечения, и в итоге он запал в душу всерьёз и надолго.' +
+                ' Любовь к лабиринтам + визуализация + всякие фичи = <span role="img" aria-label="heart">❤</span>'}</div>,
+            link: "https://github.com/DoubleCookies/MazeGeneratorAndSolver"
+        },
+        {
+            title: 'wat-increment',
+            description: <div>{'Пусть он и незавершён, но тем не менее мне очень нравится тема <i>хаоса</i> в Javascript, за которым скрывается <i>порядок</i>'}</div>,
+            link: "https://doublecookies.github.io/wat-increment"
+        },
+    ];
+
+    const dataItems = data.map(item =>
+        <li key={item.title}>
+            <a href={item.link} style={{marginRight: 4}}>{item.title}.</a>
+            <Trans i18nKey={"programmingProject:" + item.title}>{item.description}</Trans>
+        </li>);
 
     return (
         <div>
-            <h3 className="headings-medium text-miniMedium">Любимые проекты</h3>
+            <h3 className="headings-medium text-miniMedium">{t("favorite")}</h3>
             <Divider className="gradient-border-small"/>
-            <div style={{marginBottom: 10}}>Список проектов на Github'е не <i>прям чтобы большой</i>, но в нём отдельно
-                хочется выделить следующие:
+            <div style={{marginBottom: 10}}>
+                <Trans i18nKey="programmingProject:favoriteDescription">Список проектов на Github'е не <i>прям чтобы большой</i>,
+                    но в нём отдельно хочется выделить следующие:</Trans>
             </div>
             <ul className="what-list">
-                <li><a href="https://github.com/DoubleCookies/MazeGeneratorAndSolver"
-                       style={{marginRight: 4}}>MazeGeneratorAndSolver.</a> Один из старых проектов, который был создан
-                    ради развлечения,
-                    и в итоге он запал в душу всерьёз и надолго. Любовь к лабиринтам + визуализация + всякие фичи
-                    = <span role="img" aria-label="heart">❤</span></li>
-                <li><a href="https://github.com/DoubleCookies/wat-increment"
-                       style={{marginRight: 4}}>wat-increment.</a> Пусть он и незавершён, но тем не менее мне очень
-                    нравится тема
-                    <i>хаоса</i> в Javascript, за которым скрывается <i>порядок</i>.
-                </li>
-                <li><b><i>То, что в разработке.</i></b> Стоять на месте - не лучшая идея, так что в будущих проектах
-                    планирую делать новые, полезные и, надеюсь, <i>прикольные</i> вещи.
+                {dataItems}
+                <li><b style={{marginRight: 4}}><i><Trans i18nKey="programmingProject:inDevelopment">То, что в разработке.</Trans></i></b>
+                    <Trans i18nKey="programmingProject:inDevelopmentDescription">Стоять на месте - не лучшая идея, так что в будущих проектах
+                        планирую делать новые, полезные и, надеюсь, <i>прикольные</i> вещи.</Trans>
                 </li>
             </ul>
         </div>

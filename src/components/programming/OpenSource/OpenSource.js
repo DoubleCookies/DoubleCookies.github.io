@@ -19,7 +19,7 @@ function OpenSource() {
           <Divider className="gradient-border"/>
           <Row gutter={[0, 12]} style={{marginBottom: 10}}>
               <Col span={24}>
-                  <Trans i18nKey="link">There are some repositories <a
+                  <Trans i18nKey="programmingSection:link">There are some repositories <a
                       href="https://github.com/DoubleCookies"
                       target="_blank" rel="noopener noreferrer">on my Github-page</a>:</Trans>
               </Col>

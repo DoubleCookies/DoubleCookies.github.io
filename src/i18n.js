@@ -31,17 +31,31 @@ const resources = {
         },
         programmingProject: {
             title: 'Projects',
-            link: "There are some repositories <1>on my Github-page</1>. Here are some of them:",
+
+            mention: 'Other *cool* projects',
+            mentionProjects: 'And some projects worth mentioning',
             GDStatistics: 'Project about collecting statistics from Geometry Dash.',
             stats4wiki: 'Almost the same as previous but more specific',
             wikiWamLog: 'WAM rank charts for some wikis',
             StringSwap: 'Small app for text processing',
-            MazeGeneratorAndSolver: 'Maze generation and solving. Also has rendering for both processes',
             AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
+
+            favorite: 'Favorite projects',
+            favoriteDescription: 'Projects list on Github <1>isn\'t so big</1>, ' +
+                'but there are favorite projects:',
+            MazeGeneratorAndSolver: 'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long' +
+                ' Love for mazes + visualization + cool features = <1>❤</1>',
+            'wat-increment': 'Even though it isn\'t finished, I still like Javascript <1>chaos</1>, which contains <1>order</1>',
+            inDevelopment: 'Something in development.',
+            inDevelopmentDescription: 'Standing still is not the best idea, ' +
+                'so in the upcoming projects I plan to do new, useful and, hopefully, <1>cool</1> things',
+
+
         },
         programmingSection: {
             exp: 'Skills',
-            start: 'I am software engineer with 3+ years experience. During this time I learned and used following technologies:',
+            link: "There are some repositories <1>on my Github-page</1>. Here are some of them:",
+            start: 'I am software engineer with 4 years experience. During this time I learned and used following technologies:',
             javaExp: 'Main programming language, used most of the time. Also learned about connected things like:',
             jsExp: 'Javascript and other stuff (Frameworks, libraries, HTML, CSS). Also used a lot.',
             otherExp: 'Other',
@@ -67,7 +81,7 @@ const resources = {
             mainTitle: 'Обо мне',
             cookies: 'DoubleCookies',
             programmingTitle: 'Программирование',
-            programmingIntro: 'Моё основное занятие. Java-разработчик с 3 годами опыта работы; ' +
+            programmingIntro: 'Моё основное занятие. Java-разработчик с 4 годами опыта работы; ' +
                 'знаком с Spring Boot, JUnit, БД (SQL и NoSQL), а также есть опыт работы с JS (React, Typescript), HTML и CSS. ' +
                 'Принимал участие как в создании нового масштабного проекта, так и в доработке ряда уже существующих.',
             programmingOpenSource: 'Иногда вношу вклад в Open Source — на GitHub работаю над своими проектами и немного помогаю другим.',
@@ -89,12 +103,24 @@ const resources = {
         },
         programmingProject: {
             title: 'Проекты',
+
+            mention: 'Другие *ничего так* проекты',
+            mentionProjects: 'И ещё несколько проектов, достойные упоминания:',
             GDStatistics: 'Проект, посвящённый сбору статистики из игры Geometry Dash.',
             stats4wiki: 'Похож на предыдущий проект, но более узконаправленный.',
             wikiWamLog: 'Графики рейтинга WAM для нескольких википроектов',
             StringSwap: 'Небольшое приложение для работы с текстом',
-            MazeGeneratorAndSolver: 'Проект по генерации и решения лабиринтов. Присутствует отрисовка всего процесса создания и решения.',
             AssociativeRules: 'Старый проект, созданный ещё в университете. Позволяет произвести анализ ассоциативных правил в рамках задачи медицинской диагностики.',
+
+            favorite: 'Любимые проекты',
+            favoriteDescription: 'Список проектов на Github\'е не <1>прям чтобы большой</1>, ' +
+                'но в нём отдельно хочется выделить следующие:',
+            MazeGeneratorAndSolver: 'Один из старых проектов, который был создан ради развлечения, и в итоге он запал в душу всерьёз и надолго.' +
+                ' Любовь к лабиринтам + визуализация + всякие фичи = <1>❤</1>',
+            'wat-increment': 'Пусть он и незавершён, но тем не менее мне очень нравится тема <1>хаоса</1> в Javascript, за которым скрывается <1>порядок</1>',
+            inDevelopment: 'То, что в разработке.',
+            inDevelopmentDescription: 'Стоять на месте - не лучшая идея, так что в будущих проектах ' +
+                'планирую делать новые, полезные и, надеюсь, <1>прикольные</1> вещи',
         },
         programmingSection: {
             exp: 'Навыки',
