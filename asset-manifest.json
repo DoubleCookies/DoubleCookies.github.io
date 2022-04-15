@@ -5,19 +5,19 @@
     "main.js.map": "/static/js/main.bdf6918b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.15e679b5.js",
     "runtime-main.js.map": "/static/js/runtime-main.15e679b5.js.map",
-    "static/js/2.ee9e8f22.chunk.js": "/static/js/2.ee9e8f22.chunk.js",
-    "static/js/2.ee9e8f22.chunk.js.map": "/static/js/2.ee9e8f22.chunk.js.map",
+    "static/js/2.f4a29c4a.chunk.js": "/static/js/2.f4a29c4a.chunk.js",
+    "static/js/2.f4a29c4a.chunk.js.map": "/static/js/2.f4a29c4a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8ec7799094bbfcbc961327a0593bbaf3.js": "/precache-manifest.8ec7799094bbfcbc961327a0593bbaf3.js",
+    "precache-manifest.088630f9e82eec43543960eee11f65cb.js": "/precache-manifest.088630f9e82eec43543960eee11f65cb.js",
     "service-worker.js": "/service-worker.js",
     "static/css/main.ecbbb2e1.chunk.css.map": "/static/css/main.ecbbb2e1.chunk.css.map",
-    "static/js/2.ee9e8f22.chunk.js.LICENSE.txt": "/static/js/2.ee9e8f22.chunk.js.LICENSE.txt",
+    "static/js/2.f4a29c4a.chunk.js.LICENSE.txt": "/static/js/2.f4a29c4a.chunk.js.LICENSE.txt",
     "static/media/ChocoCookie.webp": "/static/media/ChocoCookie.6986b791.webp",
     "static/media/DoubleCookies.webp": "/static/media/DoubleCookies.d5962e31.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.15e679b5.js",
-    "static/js/2.ee9e8f22.chunk.js",
+    "static/js/2.f4a29c4a.chunk.js",
     "static/css/main.ecbbb2e1.chunk.css",
     "static/js/main.bdf6918b.chunk.js"
   ]
