@@ -5,9 +5,11 @@ import React from 'react';
 
 function GithubCalendar() {
     return (
-        <GitHubCalendar username="DoubleCookies">
-            <ReactTooltip delayShow={50} html/>
-        </GitHubCalendar>
+        <div className="block">
+            <GitHubCalendar username="DoubleCookies">
+                <ReactTooltip delayShow={50} html/>
+            </GitHubCalendar>
+        </div>
     );
 }
 

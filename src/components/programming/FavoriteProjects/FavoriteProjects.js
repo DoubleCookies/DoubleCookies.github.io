@@ -30,7 +30,7 @@ function FavoriteProjects() {
         <div>
             <h3 className="headings-medium text-miniMedium">{t("favorite")}</h3>
             <Divider className="gradient-border-small"/>
-            <div style={{marginBottom: 10}}>
+            <div style={{marginBottom: 10}} className="block">
                 <Trans i18nKey="programmingProject:favoriteDescription">Список проектов на Github'е не <i>прям чтобы большой</i>,
                     но в нём отдельно хочется выделить следующие:</Trans>
             </div>

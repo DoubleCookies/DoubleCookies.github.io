@@ -43,7 +43,7 @@ function ProjectsList() {
         <div>
             <h3 className="headings-medium text-miniMedium">{t("mention")}</h3>
             <Divider className="gradient-border-small"/>
-            <div style={{marginBottom: 10}}>{t("mentionProjects")}</div>
+            <div style={{marginBottom: 10}} className="block">{t("mentionProjects")}</div>
             <ul>
                 {dataItems}
             </ul>

@@ -23,7 +23,7 @@ function MainPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}>{t("mainPage:intro")}</Col>
+                        <Col span={24} className="block">{t("mainPage:intro")}</Col>
                     </Row>
                     <Row>
                         <Col span={24}>
@@ -32,7 +32,7 @@ function MainPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}>
+                        <Col span={24} className="block">
                             <div>{t("programmingIntro")}</div>
                             <br/>
                             <div>{t("programmingOpenSource")}</div>
@@ -48,7 +48,7 @@ function MainPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}><Link to="/hobbies">{t("hobbiesLink")}</Link></Col>
+                        <Col span={24} className="block"><Link to="/hobbies">{t("hobbiesLink")}</Link></Col>
                     </Row>
                 </div>
             </Content>

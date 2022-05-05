@@ -18,7 +18,7 @@ function OpenSource() {
           </Row>
           <Divider className="gradient-border"/>
           <Row gutter={[0, 12]} style={{marginBottom: 10}}>
-              <Col span={24}>
+              <Col span={24} className="block">
                   <Trans i18nKey="programmingSection:link">There are some repositories <a
                       href="https://github.com/DoubleCookies"
                       target="_blank" rel="noopener noreferrer">on my Github-page</a>:</Trans>

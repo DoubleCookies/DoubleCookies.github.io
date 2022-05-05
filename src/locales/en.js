@@ -67,7 +67,7 @@ const en = {
             'but memories about it are good.',
         chessTitle: 'Chess',
         chessStart: 'I began to play chess at 4 (chess, of course, are more complicated than cars and robots but a way more interesting). ' +
-            'Also I participated in school and university competitions and took 1-3 places as a part of teams.' +
+            'Also I participated in school and university competitions and took 1-3 places as a part of teams. ' +
             'Nowadays I play chess not so often and mostly online.',
     }
 };

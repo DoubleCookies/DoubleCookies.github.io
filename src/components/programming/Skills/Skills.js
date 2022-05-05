@@ -15,7 +15,7 @@ function Skills() {
             </Row>
             <Divider className="gradient-border"/>
             <Row>
-                <Col span={24}>{t("start")}</Col>
+                <Col span={24} className="block">{t("start")}</Col>
             </Row>
             <Row>
                 <Col span={24}>
@@ -24,7 +24,7 @@ function Skills() {
             </Row>
             <Divider className="gradient-border-small"/>
             <Row>
-                <Col span={24}>
+                <Col span={24} className="block">
                     <div>{t("javaExp")}</div>
                     <ul>
                         <li>Spring Boot</li>
@@ -41,7 +41,7 @@ function Skills() {
             </Row>
             <Divider className="gradient-border-small"/>
             <Row>
-                <Col span={24}>
+                <Col span={24} className="block">
                     <div>{t("jsExp")}</div>
                     <ul>
                         <li>JavaScript</li>
@@ -60,7 +60,7 @@ function Skills() {
             </Row>
             <Divider className="gradient-border-small"/>
             <Row>
-                <Col span={24}>
+                <Col span={24} className="block">
                     <ul>
                         <li>C#</li>
                     </ul>
