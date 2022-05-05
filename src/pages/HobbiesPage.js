@@ -23,10 +23,10 @@ function HobbiesPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}>{t("photoStart")}</Col>
+                        <Col span={24} className="block">{t("photoStart")}</Col>
                     </Row>
                     <Row style={{marginBottom: 10}}>
-                        <Col span={24}>{t("photoGallery")}</Col>
+                        <Col span={24} className="block">{t("photoGallery")}</Col>
                     </Row>
                     <Row style={{lineHeight: 0, textAlign: 'center'}}>
                         <Col span={24}>
@@ -41,10 +41,10 @@ function HobbiesPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}>{t("fandomStart")}</Col>
+                        <Col span={24} className="block">{t("fandomStart")}</Col>
                     </Row>
                     <Row>
-                        <Col span={24}>{t("fandomVanguard")}</Col>
+                        <Col span={24} className="block">{t("fandomVanguard")}</Col>
                     </Row>
                     <br/>
                     <Row>
@@ -54,7 +54,7 @@ function HobbiesPage() {
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24}>{t("chessStart")}</Col>
+                        <Col span={24} className="block">{t("chessStart")}</Col>
                     </Row>
                 </div>
             </Content>
