@@ -72,6 +72,14 @@ function ImagesGallery() {
             />
             <Image
                 width={150}
+                alt={"Tree and old building image"}
+                src={process.env.PUBLIC_URL + '/previewImages/IMG_6600_preview.jpg'}
+                preview={{
+                    src: process.env.PUBLIC_URL + '/images/IMG_6600.jpg'
+                }}
+            />
+            <Image
+                width={150}
                 alt={"Flower image"}
                 src={process.env.PUBLIC_URL + '/previewImages/IMG_6290_preview.jpg'}
                 preview={{
@@ -80,10 +88,18 @@ function ImagesGallery() {
             />
             <Image
                 width={150}
-                alt={"Tree and old building image"}
-                src={process.env.PUBLIC_URL + '/previewImages/IMG_6600_preview.jpg'}
+                alt={"Blossom tree"}
+                src={process.env.PUBLIC_URL + '/previewImages/IMG_9081_preview.jpg'}
                 preview={{
-                    src: process.env.PUBLIC_URL + '/images/IMG_6600.jpg'
+                    src: process.env.PUBLIC_URL + '/images/IMG_9081.jpg'
+                }}
+            />
+            <Image
+                width={150}
+                alt={"Two ducks"}
+                src={process.env.PUBLIC_URL + '/previewImages/IMG_9225_preview.jpg'}
+                preview={{
+                    src: process.env.PUBLIC_URL + '/images/IMG_9225.jpg'
                 }}
             />
         </Image.PreviewGroup>
