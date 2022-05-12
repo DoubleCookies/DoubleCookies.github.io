@@ -22,7 +22,7 @@ function MainPage() {
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
-                    <Row>
+                    <Row className="mainpage-margin">
                         <Col span={24} className="block">{t("mainPage:intro")}</Col>
                     </Row>
                     <Row>

@@ -1,23 +1,23 @@
 .content-title {
-    padding: 24px 12px 24px 12px;
+    padding: 18px 12px 6px 12px;
 
     background: #ffdb91;
 }
 
 .cookies-img-wrapper {
-    height: 250px;
+    height: 220px;
 }
 
 @media only screen and (max-width: 600px) {
     .cookies-img-wrapper {
-        height: 200px;
+        height: 180px;
     }
 }
 
 .cookies-img {
     height: auto;
     width: 100%;
-    max-width: 250px;
+    max-width: 220px;
     min-width: 80px;
 }
 
@@ -25,7 +25,7 @@
     .cookies-img {
         height: auto;
         width: 100%;
-        max-width: 200px;
+        max-width: 180px;
         min-width: 80px;
     }
 }

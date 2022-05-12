@@ -12,7 +12,7 @@ const en = {
         fandomPreLink: 'More details about me you can find *in hobbies*',
         hobbiesTitle: 'Hobbies',
         hobbiesLink: 'Photography, FANDOM, chess and other things!',
-        intro: 'Hello! I am DoubleCookies — person who loves programming, eating cookies, check statistics and other things! ',
+        intro: 'Hello! My name is Igor but some people know me as DoubleCookies — person who loves programming, eating cookies, check statistics and other things! ',
     },
     aboutThisPage: {
         title: 'This page uses following technologies:',

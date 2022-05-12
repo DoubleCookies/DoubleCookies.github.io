@@ -4,7 +4,7 @@
 
     margin-top: auto;
     width: 100%;
-    padding: 10px 0 24px 0;
+    padding: 10px 0 10px 0;
 }
 
 .skills-list .ant-list-header {
@@ -28,7 +28,7 @@
     right: 50px;
     top: -10px;
 
-    width: 150px;
+    width: 120px;
 }
 
 @media only screen and (max-width: 600px) {

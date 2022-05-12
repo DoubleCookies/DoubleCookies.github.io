@@ -1,5 +1,5 @@
 import React from 'react';
-import { GithubOutlined, TwitterOutlined } from '@ant-design/icons';
+import { GithubOutlined, TwitterOutlined, LinkedinOutlined } from '@ant-design/icons';
 import FandomIcon from '../FandomIcon/FandomIcon';
 import { Divider, Layout, List, Popover } from 'antd';
 import chocolateCookie from '../../images/ChocoCookie.webp';
@@ -64,6 +64,9 @@ function FooterNavigation() {
                     <a href="https://github.com/DoubleCookies" target="_blank" rel="noopener noreferrer">
                         <GithubOutlined style={{fontSize: 32}}/>
                     </a>
+                    <a href="https://linkedin.com/in/igor-nemytyshev" target="_blank" rel="noopener noreferrer">
+                        <LinkedinOutlined style={{fontSize: 32}}/>
+                    </a>
                     <a href="https://twitter.com/DblCookies" target="_blank"
                        rel="noopener noreferrer"><TwitterOutlined style={{fontSize: 32}}/>
                     </a>
@@ -76,7 +79,7 @@ function FooterNavigation() {
                     2019-2022 <span role="img" aria-label="cookieEmoji">🍪</span>
                 </div>
                 <Popover content={content} style={{paddingRight: 20}} placement="topRight">
-                    <img src={chocolateCookie} alt={"ChocolateCookie"} className={"footer-img"}/>
+                    <img src={chocolateCookie} alt={"ChocolateCookie"} className="footer-img"/>
                 </Popover>
             </div>
         </Footer>
