@@ -58,7 +58,15 @@
 }
 
 .text-miniMedium {
-    font-size: 22px;
+    font-size: ~"max(3.5vmin, 22px)";
+}
+
+.text-small {
+    font-size: ~"max(3.2vmin, 20px)";
+}
+
+.text-small-2 {
+    font-size: ~"max(2.8vmin, 16px)";
 }
 
 .gradient-border-small {
@@ -75,4 +83,42 @@
     height: 4px;
 
     background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
+}
+
+.progLink, .hobbyLink {
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    border: 3px solid;
+
+    margin: auto;
+
+    font-size: ~"max(3.5vmin, 22px)";
+    font-family: "Balsamiq Sans", "Century Gothic", "Segoe UI", "Roboto", sans-serif;
+}
+
+.progLink {
+    border-color: #64b8ff;
+}
+
+.progLink a {
+    color: #64b8ff;
+}
+.progLink a:hover {
+    color: #0063b6;
+}
+
+
+.hobbyLink {
+    border-color: #ffa71e;
+}
+
+.hobbyLink a {
+    color: #ffa71e;
+}
+
+.hobbyLink a:hover {
+    color: #dc8500;
 }

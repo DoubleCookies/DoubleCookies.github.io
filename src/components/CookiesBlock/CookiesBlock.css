@@ -1,7 +1,11 @@
 .content-title {
-    padding: 18px 12px 6px 12px;
+    padding: 18px 12px 0 12px;
 
     background: #ffdb91;
+}
+
+.cookies-block-font {
+    font-family: "Balsamiq Sans", "Century Gothic", "Segoe UI", "Roboto", sans-serif;
 }
 
 .cookies-img-wrapper {

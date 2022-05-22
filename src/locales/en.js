@@ -7,12 +7,20 @@ const en = {
             'familiar with Spring Boot, JUnit, DB (SQL and NoSQL), also have experience with JS (React, Typescript), HTML and CSS. ' +
             'I participated in creating new large project and reworking some existing. ',
         programmingOpenSource: 'Sometimes I make contribution in Open Source — I have my own repositories on GitHub and contribution in other projects.',
-        programmingLink: "More information about me can be found in <1>this section</1>.",
+        programmingLink: "More about programming",
         fandomTitle: 'FANDOM',
         fandomPreLink: 'More details about me you can find *in hobbies*',
         hobbiesTitle: 'Hobbies',
-        hobbiesLink: 'Photography, FANDOM, chess and other things!',
-        intro: 'Hello! My name is Igor but some people know me as DoubleCookies — person who loves programming, eating cookies, check statistics and other things! ',
+        hobbiesLink: 'More about hobbies',
+        intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
+    },
+    aboutBlock: {
+        Java: "Senior Java Developer, almost 5 years of experience",
+        Skills: "Familiar with Java, Spring Boot, Maven, JavaScript, TypeScript, React, HTML, CSS",
+        Project: "Took part in the creation of new project and improvement of existing ones",
+        TeamManagement: "Help other developers on the team",
+        OpenSource: "Contribute to Open Source - I have my own repositories on GitHub and contribution in other projects.",
+        Hobbies: "Interested in chess, photography and other cool things!",
     },
     aboutThisPage: {
         title: 'This page uses following technologies:',

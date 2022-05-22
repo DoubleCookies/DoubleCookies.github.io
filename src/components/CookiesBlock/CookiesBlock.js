@@ -22,7 +22,7 @@ function CookiesBlock(props) {
                 </Col>
             </Row>
             <Row type="flex" align="middle" justify="center">
-                <span className="headings text-big">{t(props.name)}</span>
+                <span className="text-big cookies-block-font">{t(props.name)}</span>
             </Row>
         </div>
     );
