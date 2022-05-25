@@ -21,6 +21,10 @@ const en = {
         TeamManagement: "Help other developers on the team",
         OpenSource: "Contribute to Open Source - I have my own repositories on GitHub and contribution in other projects.",
         Hobbies: "Interested in chess, photography and other cool things!",
+        SplatoonStart: "Active member of Splatoon community - I'm involved into events " +
+            "organization and other community building efforts",
+        SplatoonFin: "Also I'm the leader of Splatoon team Ewfish (also known as ФУРЫБА) - one of the few active Ru-teams participating " +
+            "in global tournaments",
     },
     aboutThisPage: {
         title: 'This page uses following technologies:',

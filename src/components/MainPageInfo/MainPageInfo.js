@@ -21,6 +21,12 @@ function MainPageInfo() {
         },
         {
             description: t("Hobbies")
+        },
+        {
+            description: t("SplatoonStart")
+        },
+        {
+            description: t("SplatoonFin")
         }
     ];
 
@@ -31,7 +37,7 @@ function MainPageInfo() {
 
     return (
         <div>
-            <ul className="text-small">
+            <ul>
                 {dataItems}
             </ul>
         </div>

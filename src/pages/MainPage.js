@@ -18,7 +18,7 @@ function MainPage() {
                 <CookiesBlock name={"cookies"}/>
                 <div className="content-main">
                     <Row className="mainpage-margin">
-                        <Col span={24} className="block text-miniMedium">
+                        <Col span={24} className="block text-small">
                             <Trans i18nKey="mainPage:intro">Hello! My name is <b>Igor</b> but some people know me
                                 as <b>DoubleCookies</b> — person who loves programming,
                                 eating cookies, check statistics and other things!</Trans>
@@ -35,11 +35,11 @@ function MainPage() {
                             <MainPageInfo/>
                         </Col>
                     </Row>
-                    <Row justify="center">
-                        <Col span={10} flex>
+                    <Row justify="center" gutter={12}>
+                        <Col span={12} flex>
                             <div className="progLink"><Link to="/programming">{t("programmingLink")}</Link></div>
                         </Col>
-                        <Col span={10} flex>
+                        <Col span={12} flex>
                             <div className="hobbyLink"><Link to="/hobbies">{t("hobbiesLink")}</Link></div>
                         </Col>
                     </Row>
