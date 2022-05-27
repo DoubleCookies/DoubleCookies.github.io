@@ -4,7 +4,7 @@ import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
 import ImagesGallery from '../components/hobbies/Gallery/ImagesGallery';
-import { useTranslation } from "react-i18next";
+import { Trans, useTranslation } from "react-i18next";
 
 const {Content} = Layout;
 
@@ -55,6 +55,20 @@ function HobbiesPage() {
                     <Divider className="gradient-border"/>
                     <Row>
                         <Col span={24} className="block">{t("chessStart")}</Col>
+                    </Row>
+                    <br/>
+                    <Row>
+                        <Col span={24}>
+                            <h2 className="headings text-medium">Splatoon</h2>
+                        </Col>
+                    </Row>
+                    <Divider className="gradient-border"/>
+                    <Row>
+                        <Col span={24} className="block hobbiesBlock">
+                            <Trans i18nKey={"hobbiesSection:splatoonInfo"}>
+                             <s>10000 years after apocalypse, lore is deep, trust me</s>
+                            </Trans>
+                        </Col>
                     </Row>
                 </div>
             </Content>

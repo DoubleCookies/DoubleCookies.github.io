@@ -81,6 +81,17 @@ const en = {
         chessStart: 'I began to play chess at 4 (chess, of course, are more complicated than cars and robots but a way more interesting). ' +
             'Also I participated in school and university competitions and took 1-3 places as a part of teams. ' +
             'Nowadays I play chess not so often and mostly online.',
+        splatoonInfo: 'Splatoon – kind and interesting game about squids and octopuses which ink territory and splat each other. ' +
+            'Bright, fun, fast-paced, <0>10000 years after apocalypse, lore is deep, trust me</0>. First time I found out about ' +
+            'Splatoon 2 was 2018 - I watched World Championship finale and after some time I bought this game. \n' +
+            'Over time, I more and more merged into the game community and in the beginning of 2021 I participated in events organization for ' +
+            'russian segment - tournaments, splatfests, even fashion show (why not – there are over 300 types of clothes). \n' +
+            'Parallel to this in 2020 I joined team Ewfish (also known as ФУРЫБА) – first as simple member, but over time ' +
+            'I became team leader due to high activity and search for new members. We participated in local tournaments ' +
+            '(where we almost every time were near top places, losing only to experienced players) ' +
+            'and in worldwide tournaments – as a result, we got in top-3 several times in tournaments for low-level teams. \n' +
+            'Splatoon 3 is almost here and who knows what will be waiting and for me, and for Ewfish. ' +
+            'I hope it will be interesting, fascinating and fun as always!'
     }
 };
 
