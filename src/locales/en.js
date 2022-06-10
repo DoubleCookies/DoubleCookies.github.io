@@ -61,7 +61,7 @@ const en = {
     programmingSection: {
         exp: 'Skills',
         link: "There are some repositories <1>on my Github-page</1>. Here are some of them:",
-        start: 'I am software engineer with 4 years experience. During this time I learned and used following technologies:',
+        start: 'I am software engineer with almost 5 years experience. During this time I learned and used following technologies:',
         javaExp: 'Main programming language, used most of the time. Also learned about connected things like:',
         jsExp: 'Javascript and other stuff (Frameworks, libraries, HTML, CSS). Also used a lot.',
         otherExp: 'Other',
