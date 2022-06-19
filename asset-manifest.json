@@ -5,17 +5,17 @@
     "main.js.map": "/static/js/main.81c9907e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.76682e03.js",
     "runtime-main.js.map": "/static/js/runtime-main.76682e03.js.map",
-    "static/js/2.32b8bab8.chunk.js": "/static/js/2.32b8bab8.chunk.js",
-    "static/js/2.32b8bab8.chunk.js.map": "/static/js/2.32b8bab8.chunk.js.map",
+    "static/js/2.737ea94d.chunk.js": "/static/js/2.737ea94d.chunk.js",
+    "static/js/2.737ea94d.chunk.js.map": "/static/js/2.737ea94d.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.cd98ee8d.chunk.css.map": "/static/css/main.cd98ee8d.chunk.css.map",
-    "static/js/2.32b8bab8.chunk.js.LICENSE.txt": "/static/js/2.32b8bab8.chunk.js.LICENSE.txt",
+    "static/js/2.737ea94d.chunk.js.LICENSE.txt": "/static/js/2.737ea94d.chunk.js.LICENSE.txt",
     "static/media/ChocoCookie.f08a3650.webp": "/static/media/ChocoCookie.f08a3650.webp",
     "static/media/DoubleCookies.9fc0d2e3.webp": "/static/media/DoubleCookies.9fc0d2e3.webp"
   },
   "entrypoints": [
     "static/js/runtime-main.76682e03.js",
-    "static/js/2.32b8bab8.chunk.js",
+    "static/js/2.737ea94d.chunk.js",
     "static/css/main.cd98ee8d.chunk.css",
     "static/js/main.81c9907e.chunk.js"
   ]
