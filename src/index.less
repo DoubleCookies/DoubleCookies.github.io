@@ -85,9 +85,27 @@
     background-image: linear-gradient(to right, rgba(238, 188, 90, 0.95) 25px, transparent 85%);
 }
 
+@media only screen and (max-width: 600px) {
+    .mainPageButtons {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .mainPageButtons > .ant-col-12 {
+        max-width: 100%;
+    }
+
+    .progLink, .hobbyLink {
+        margin-top: 10px !important;
+        margin-bottom: 10px !important;
+    }
+}
+
 .progLink, .hobbyLink {
     display: flex;
     justify-content: center;
+    min-width: 160px;
     width: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -95,7 +113,7 @@
 
     margin: auto;
 
-    font-size: ~"max(3.5vmin, 22px)";
+    font-size: ~"max(3.2vmin, 20px)";
     font-family: "Balsamiq Sans", "Century Gothic", "Segoe UI", "Roboto", sans-serif;
 }
 

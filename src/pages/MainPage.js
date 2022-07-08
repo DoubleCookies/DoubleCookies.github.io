@@ -35,7 +35,7 @@ function MainPage() {
                             <MainPageInfo/>
                         </Col>
                     </Row>
-                    <Row justify="center" gutter={12}>
+                    <Row justify="center" gutter={12} className="mainPageButtons">
                         <Col span={12} flex>
                             <div className="progLink"><Link to="/programming">{t("programmingLink")}</Link></div>
                         </Col>
