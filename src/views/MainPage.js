@@ -2,10 +2,10 @@ import { Trans, useTranslation } from 'react-i18next';
 import { Col, Divider, Layout, Row } from 'antd';
 import { Link } from 'react-router-dom';
 import React from 'react';
-import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
-import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
-import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
-import MainPageInfo from '../components/MainPageInfo/MainPageInfo';
+import HeaderNavigation from '../components/general/HeaderNavigation/HeaderNavigation';
+import FooterNavigation from '../components/general/FooterNavigation/FooterNavigation';
+import CookiesBlock from '../components/general/CookiesBlock/CookiesBlock';
+import MainPageInfo from '../components/mainPage/MainPageInfo/MainPageInfo';
 
 const {Content} = Layout;
 

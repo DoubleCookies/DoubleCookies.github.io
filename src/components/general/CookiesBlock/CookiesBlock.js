@@ -1,5 +1,5 @@
 import { Col, Image, Row } from 'antd';
-import logo from '../../images/DoubleCookies.webp';
+import logo from '../../../images/DoubleCookies.webp';
 import React from 'react';
 import './CookiesBlock.css'
 import { useTranslation } from 'react-i18next';

@@ -1,8 +1,8 @@
 import React from 'react';
 import { Col, Divider, Layout, Row } from 'antd';
-import HeaderNavigation from '../components/HeaderNavigation/HeaderNavigation';
-import FooterNavigation from '../components/FooterNavigation/FooterNavigation';
-import CookiesBlock from '../components/CookiesBlock/CookiesBlock';
+import HeaderNavigation from '../components/general/HeaderNavigation/HeaderNavigation';
+import FooterNavigation from '../components/general/FooterNavigation/FooterNavigation';
+import CookiesBlock from '../components/general/CookiesBlock/CookiesBlock';
 import ImagesGallery from '../components/hobbies/Gallery/ImagesGallery';
 import { Trans, useTranslation } from "react-i18next";
 

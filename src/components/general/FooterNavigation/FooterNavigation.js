@@ -2,7 +2,7 @@ import React from 'react';
 import { GithubOutlined, TwitterOutlined, LinkedinOutlined } from '@ant-design/icons';
 import FandomIcon from '../FandomIcon/FandomIcon';
 import { Divider, Layout, List, Popover } from 'antd';
-import chocolateCookie from '../../images/ChocoCookie.webp';
+import chocolateCookie from '../../../images/ChocoCookie.webp';
 import './FooterNavigation.css';
 import { useTranslation } from 'react-i18next';
 
