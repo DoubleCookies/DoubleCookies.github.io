@@ -1,19 +1,13 @@
-//TODO: обновить про репозитории, убрать лишние переводы
 const en = {
     mainPage: {
         mainTitle: 'About me',
         cookies: 'DoubleCookies',
         programmingTitle: 'Programming',
-        programmingIntro: 'My main activity. I\'m Java-developer with 5 years of experience; ' +
-            'familiar with Spring Boot, JUnit, DB (SQL and NoSQL), also have experience with JS (React, Typescript), HTML and CSS. ' +
-            'I participated in creating new large project and reworking some existing. ',
-        programmingOpenSource: 'Sometimes I make contribution in Open Source — I have my own repositories on GitHub and contribution in other projects.',
         programmingLink: "More about programming",
         fandomTitle: 'FANDOM',
-        fandomPreLink: 'More details about me you can find *in hobbies*',
         hobbiesTitle: 'Hobbies',
         hobbiesLink: 'More about hobbies',
-        intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
+        intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> or <1>DblCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
     },
     aboutBlock: {
         Java: "Senior Java Developer, 5 years of experience",
@@ -39,7 +33,7 @@ const en = {
     programmingProject: {
         title: 'Projects',
 
-        mention: 'Other *cool* projects',
+        mention: 'Other cool projects',
         mentionProjects: 'And some projects worth mentioning',
         GDStatistics: 'Project about collecting statistics from Geometry Dash.',
         stats4wiki: 'Almost the same as previous but more specific',
@@ -52,17 +46,15 @@ const en = {
             'but there are favorite projects:',
         MazeGeneratorAndSolver: 'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
             ' Love for mazes + visualization + cool features = <1>❤</1>',
-        'wat-increment': 'Even though it isn\'t finished, I still like Javascript <1>chaos</1>, which contains <1>order</1>',
+        'wat-increment': 'I like JS crazy stuff — at least because almost everything can be explained.',
         inDevelopment: 'Something in development.',
         inDevelopmentDescription: 'Standing still is not the best idea, ' +
             'so in the upcoming projects I plan to do new, useful and, hopefully, <1>cool</1> things',
-
-
     },
     programmingSection: {
         exp: 'Skills',
         link: "There are some repositories <1>on my Github-page</1>. Here are some of them:",
-        start: 'I am Java software engineer with 5 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
+        start: 'I am senior Java software developer with 5 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
             'Below are the technologies I have worked with (hopefully this list will grow!)',
         backendTab: 'Java + related',
         frontendTab: 'Web',
@@ -71,19 +63,18 @@ const en = {
         frontendIntro: '*It is everywhere*',
         otherIntro: 'Some useful things',
         javaExp: 'This is my "main" programming language, used most of the time. I started my path with Java 8 and now ' +
-            'I\'m gradually moving to new versions (11 -> 17 -> 18).' +
-            ' Also learned about connected things like:',
+            'I\'m gradually moving to new versions (11 -> 17 -> 18). ' +
+            'Also learned about connected things like:',
         backendSkills: '<0>' +
             '<1>Spring Boot and Maven for creating, compiling and building apps.</1>' +
             '<1>JUnit and Mockito for testing.</1>' +
-            '<1>Hibernate and PostgreSQL for databases. Also worked with MS SQL Server and Oracle Database.</1>'
-            + '</0>',
-        frontendExp: 'Javascript and other stuff connected with it. I have less experience with it than with Java but it doesn\'t stop me at all! ' +
+            '<1>Hibernate and PostgreSQL for databases. Also worked with MS SQL Server and Oracle Database.</1>' +
+            '</0>',
+        frontendExp: 'Javascript and other stuff connected with it. I have less experience with JS than with Java but it doesn\'t stop me at all! ' +
             'I use JS mostly in my free time (almost each of my active repos has web-page).',
         frontendSkills: '<0>' +
             '<1>JavaScript and TypeScript as programming language. I don\'t know what is better.</1>' +
-            '<1>React. Tried Angular before but it isn\'t my cup of tea. Maybe I\'ll try Vue and other ' +
-            'frameworks later.</1>' +
+            '<1>React. Tried Angular before but it isn\'t my cup of tea. Maybe I\'ll try Vue and other frameworks later.</1>' +
             '<1>Ant Design. Big and cool library.</1>' +
             '<1>HTML + CSS. It\'s just must have.</1>' +
             '</0>',

@@ -15,7 +15,7 @@ function FavoriteProjects() {
         },
         {
             title: 'wat-increment',
-            description: <div>{'Пусть он и незавершён, но тем не менее мне очень нравится тема <i>хаоса</i> в Javascript, за которым скрывается <i>порядок</i>'}</div>,
+            description: <div>{'Мне очень нравится тема хаоса в Javascript, за которым скрывается порядок'}</div>,
             link: "https://doublecookies.github.io/wat-increment"
         },
     ];

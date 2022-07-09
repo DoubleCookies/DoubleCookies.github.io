@@ -36,15 +36,16 @@ function HobbiesPage() {
                     <br/>
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("fandomTitle")}</h2>
+                            <h2 className="headings text-medium">Splatoon</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24} className="block">{t("fandomStart")}</Col>
-                    </Row>
-                    <Row>
-                        <Col span={24} className="block">{t("fandomVanguard")}</Col>
+                        <Col span={24} className="block hobbiesBlock">
+                            <Trans i18nKey={"hobbiesSection:splatoonInfo"}>
+                                <s>10000 years after apocalypse, lore is deep, trust me</s>
+                            </Trans>
+                        </Col>
                     </Row>
                     <br/>
                     <Row>
@@ -59,16 +60,15 @@ function HobbiesPage() {
                     <br/>
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">Splatoon</h2>
+                            <h2 className="headings text-medium">{t("fandomTitle")}</h2>
                         </Col>
                     </Row>
                     <Divider className="gradient-border"/>
                     <Row>
-                        <Col span={24} className="block hobbiesBlock">
-                            <Trans i18nKey={"hobbiesSection:splatoonInfo"}>
-                             <s>10000 years after apocalypse, lore is deep, trust me</s>
-                            </Trans>
-                        </Col>
+                        <Col span={24} className="block">{t("fandomStart")}</Col>
+                    </Row>
+                    <Row>
+                        <Col span={24} className="block">{t("fandomVanguard")}</Col>
                     </Row>
                 </div>
             </Content>
