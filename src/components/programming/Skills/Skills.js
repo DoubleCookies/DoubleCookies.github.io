@@ -1,6 +1,7 @@
 import { Col, Divider, Row, Tabs } from 'antd';
 import { Trans, useTranslation } from 'react-i18next';
 import React from 'react';
+import javaLogo from '../../../images/javaLogo.webp';
 
 
 function Skills() {
@@ -23,6 +24,7 @@ function Skills() {
                     <TabPane tab={t("backendTab")} key="1">
                         <h3 className="headings-medium text-small-2">{t("javaIntro")}</h3>
                         <Divider className="gradient-border-small"/>
+                        <img src={javaLogo} alt={"Java Logo"} className="progLogo"/>
                         <div>{t("javaExp")}</div>
                         <Trans i18nKey="programmingSection:backendSkills">
                             <ul style={{marginTop: 10}}>
