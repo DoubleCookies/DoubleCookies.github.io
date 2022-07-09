@@ -43,32 +43,6 @@ function MainPage() {
                             <div className="hobbyLink"><Link to="/hobbies">{t("hobbiesLink")}</Link></div>
                         </Col>
                     </Row>
-                    {/*тут уже всё остальное надо убрать*/}
-                    {/*<Row>*/}
-                    {/*    <Col span={24}>*/}
-                    {/*        <h2 className="headings text-medium">{t("programmingTitle")}</h2>*/}
-                    {/*    </Col>*/}
-                    {/*</Row>*/}
-                    {/*<Divider className="gradient-border"/>*/}
-                    {/*<Row>*/}
-                    {/*    <Col span={24} className="block">*/}
-                    {/*        <div>{t("programmingIntro")}</div>*/}
-                    {/*        <br/>*/}
-                    {/*        <div>{t("programmingOpenSource")}</div>*/}
-                    {/*        <br/>*/}
-                    {/*        <div><Trans i18nKey="mainPage:programmingLink">More information about me can be found in <Link*/}
-                    {/*            to="/programming">this section</Link>.</Trans></div>*/}
-                    {/*    </Col>*/}
-                    {/*</Row>*/}
-                    {/*<Row>*/}
-                    {/*    <Col span={24}>*/}
-                    {/*        <h2 className="headings text-medium">{t("hobbiesTitle")}</h2>*/}
-                    {/*    </Col>*/}
-                    {/*</Row>*/}
-                    {/*<Divider className="gradient-border"/>*/}
-                    {/*<Row>*/}
-                    {/*    <Col span={24} className="block"><Link to="/hobbies">{t("hobbiesLink")}</Link></Col>*/}
-                    {/*</Row>*/}
                 </div>
             </Content>
             <FooterNavigation/>
