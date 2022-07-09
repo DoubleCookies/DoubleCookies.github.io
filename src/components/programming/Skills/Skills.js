@@ -2,6 +2,9 @@ import { Col, Divider, Row, Tabs } from 'antd';
 import { Trans, useTranslation } from 'react-i18next';
 import React from 'react';
 import javaLogo from '../../../images/javaLogo.webp';
+import jsLogo from '../../../images/jsLogo.webp';
+import gitLogo from '../../../images/gitLogo.webp';
+import './Skills.less';
 
 
 function Skills() {
@@ -20,7 +23,8 @@ function Skills() {
                 <Col span={24} className="block">{t("start")}</Col>
             </Row>
             <Row>
-                <Tabs defaultActiveKey="1">
+                <div  className="card-container">
+                <Tabs defaultActiveKey="1" type="card">
                     <TabPane tab={t("backendTab")} key="1">
                         <h3 className="headings-medium text-small-2">{t("javaIntro")}</h3>
                         <Divider className="gradient-border-small"/>
@@ -36,9 +40,10 @@ function Skills() {
                         </Trans>
                     </TabPane>
                     <TabPane tab={t("frontendTab")} key="2">
-                        <h3 className="headings-medium text-small-2">{t("webIntro")}</h3>
+                        <h3 className="headings-medium text-small-2">{t("frontendIntro")}</h3>
                         <Divider className="gradient-border-small"/>
-                        <div>{t("jsExp")}</div>
+                        <img src={jsLogo} alt={"Javascript Logo"} className="progLogo"/>
+                        <div>{t("frontendExp")}</div>
                         <Trans i18nKey="programmingSection:frontendSkills">
                             <ul style={{marginTop: 10}}>
                                 <li>JavaScript and TypeScript as programming language. I don't know what is better.</li>
@@ -52,6 +57,7 @@ function Skills() {
                     <TabPane tab={t("otherTab")} key="3">
                         <h3 className="headings-medium text-small-2">{t("otherIntro")}</h3>
                         <Divider className="gradient-border-small"/>
+                        <img src={gitLogo} alt={"Git Logo"} className="progLogo"/>
                         <Trans i18nKey="programmingSection:otherSkills">
                             <ul style={{marginTop: 10}}>
                                 <li>C#. Probably first modern programming language I learned.</li>
@@ -62,6 +68,7 @@ function Skills() {
                         </Trans>
                     </TabPane>
                 </Tabs>
+                </div>
             </Row>
         </div>
     );
