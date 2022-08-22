@@ -47,6 +47,7 @@ const en = {
         MazeGeneratorAndSolver: 'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
             ' Love for mazes + visualization + cool features = <1>❤</1>',
         'wat-increment': 'I like JS crazy stuff — at least because almost everything can be explained.',
+        ewfish: 'Probably most stylish project so far!',
         inDevelopment: 'Something in development.',
         inDevelopmentDescription: 'Standing still is not the best idea, ' +
             'so in the upcoming projects I plan to do new, useful and, hopefully, <1>cool</1> things',

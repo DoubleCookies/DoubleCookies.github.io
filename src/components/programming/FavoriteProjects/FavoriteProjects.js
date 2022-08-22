@@ -9,14 +9,19 @@ function FavoriteProjects() {
     const data = [
         {
             title: 'MazeGeneratorAndSolver',
-            description: <div>{'Один из старых проектов, который был создан ради развлечения, и в итоге он запал в душу всерьёз и надолго.' +
+            description: <div>{'ne of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
                 ' Любовь к лабиринтам + визуализация + всякие фичи = <span role="img" aria-label="heart">❤</span>'}</div>,
             link: "https://github.com/DoubleCookies/MazeGeneratorAndSolver"
         },
         {
             title: 'wat-increment',
-            description: <div>{'Мне очень нравится тема хаоса в Javascript, за которым скрывается порядок'}</div>,
+            description: <div>{'I like JS crazy stuff — at least because almost everything can be explained.'}</div>,
             link: "https://doublecookies.github.io/wat-increment"
+        },
+        {
+            title: 'ewfish',
+            description: <div>{'Probably most stylish project so far!'}</div>,
+            link: "https://doublecookies.github.io/ewfish"
         },
     ];
 
