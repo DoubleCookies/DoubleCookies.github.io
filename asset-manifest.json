@@ -1,25 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.ff1c0ae4.chunk.css",
-    "main.js": "/static/js/main.88552542.chunk.js",
-    "main.js.map": "/static/js/main.88552542.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.c57906a3.js",
-    "runtime-main.js.map": "/static/js/runtime-main.c57906a3.js.map",
-    "static/js/2.2617e7e4.chunk.js": "/static/js/2.2617e7e4.chunk.js",
-    "static/js/2.2617e7e4.chunk.js.map": "/static/js/2.2617e7e4.chunk.js.map",
+    "main.css": "/static/css/main.95afd760.css",
+    "main.js": "/static/js/main.b6bdc516.js",
+    "static/media/DoubleCookies.webp": "/static/media/DoubleCookies.9fc0d2e34b751405a031.webp",
+    "static/media/ChocoCookie.webp": "/static/media/ChocoCookie.f08a365085a01ac8812b.webp",
+    "static/media/javaLogo.webp": "/static/media/javaLogo.dd0d1b7cfd74b4ffd735.webp",
+    "static/media/jsLogo.webp": "/static/media/jsLogo.34f6da0e1f6522f23708.webp",
+    "static/media/gitLogo.webp": "/static/media/gitLogo.1a69a50c9535d3c80624.webp",
     "index.html": "/index.html",
-    "static/css/main.ff1c0ae4.chunk.css.map": "/static/css/main.ff1c0ae4.chunk.css.map",
-    "static/js/2.2617e7e4.chunk.js.LICENSE.txt": "/static/js/2.2617e7e4.chunk.js.LICENSE.txt",
-    "static/media/ChocoCookie.f08a3650.webp": "/static/media/ChocoCookie.f08a3650.webp",
-    "static/media/DoubleCookies.9fc0d2e3.webp": "/static/media/DoubleCookies.9fc0d2e3.webp",
-    "static/media/gitLogo.1a69a50c.webp": "/static/media/gitLogo.1a69a50c.webp",
-    "static/media/javaLogo.dd0d1b7c.webp": "/static/media/javaLogo.dd0d1b7c.webp",
-    "static/media/jsLogo.34f6da0e.webp": "/static/media/jsLogo.34f6da0e.webp"
+    "main.95afd760.css.map": "/static/css/main.95afd760.css.map",
+    "main.b6bdc516.js.map": "/static/js/main.b6bdc516.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c57906a3.js",
-    "static/js/2.2617e7e4.chunk.js",
-    "static/css/main.ff1c0ae4.chunk.css",
-    "static/js/main.88552542.chunk.js"
+    "static/css/main.95afd760.css",
+    "static/js/main.b6bdc516.js"
   ]
 }
