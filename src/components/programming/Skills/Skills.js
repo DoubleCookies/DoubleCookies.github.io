@@ -26,7 +26,7 @@ function Skills() {
                 <div  className="card-container">
                 <Tabs defaultActiveKey="1" type="card">
                     <TabPane tab={t("backendTab")} key="1">
-                        <h3 className="headings-medium text-small-2">{t("javaIntro")}</h3>
+                        <h3 className="headings-medium text-miniMedium">{t("javaIntro")}</h3>
                         <Divider className="gradient-border-small"/>
                         <img src={javaLogo} alt={"Java Logo"} className="progLogo"/>
                         <div>{t("javaExp")}</div>
@@ -40,7 +40,7 @@ function Skills() {
                         </Trans>
                     </TabPane>
                     <TabPane tab={t("frontendTab")} key="2">
-                        <h3 className="headings-medium text-small-2">{t("frontendIntro")}</h3>
+                        <h3 className="headings-medium text-miniMedium">{t("frontendIntro")}</h3>
                         <Divider className="gradient-border-small"/>
                         <img src={jsLogo} alt={"Javascript Logo"} className="progLogo"/>
                         <div>{t("frontendExp")}</div>
@@ -55,7 +55,7 @@ function Skills() {
                         </Trans>
                     </TabPane>
                     <TabPane tab={t("otherTab")} key="3">
-                        <h3 className="headings-medium text-small-2">{t("otherIntro")}</h3>
+                        <h3 className="headings-medium text-miniMedium">{t("otherIntro")}</h3>
                         <Divider className="gradient-border-small"/>
                         <img src={gitLogo} alt={"Git Logo"} className="progLogo"/>
                         <Trans i18nKey="programmingSection:otherSkills">
