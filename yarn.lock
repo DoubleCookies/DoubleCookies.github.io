@@ -2011,6 +2011,11 @@
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-2.0.1.tgz#20f18294f797f2209b5f65c8e3b5c8e8261d127c"
   integrity sha512-Hl219/BT5fLAaz6NDkSuhzasy49dwQS/DSdu4MdggFB8zcXv7vflBI3xp7FEmkmdDkBUI2bPUNeMttp2knYdxw==
 
+"@types/tinycolor2@^1.4.3":
+  version "1.4.3"
+  resolved "https://registry.yarnpkg.com/@types/tinycolor2/-/tinycolor2-1.4.3.tgz#ed4a0901f954b126e6a914b4839c77462d56e706"
+  integrity sha512-Kf1w9NE5HEgGxCRyIcRXR/ZYtDv0V8FVPtYHwLxl0O+maGX0erE77pQlD0gpP+/KByMZ87mOA79SjifhSB3PjQ==
+
 "@types/trusted-types@^2.0.2":
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/@types/trusted-types/-/trusted-types-2.0.2.tgz#fc25ad9943bcac11cceb8168db4f275e0e72e756"
@@ -3427,7 +3432,7 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-date-fns@2.x, date-fns@^2.14.0:
+date-fns@2.x, date-fns@^2.29.3:
   version "2.29.3"
   resolved "https://registry.yarnpkg.com/date-fns/-/date-fns-2.29.3.tgz#27402d2fc67eb442b511b70bbdf98e6411cd68a8"
   integrity sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==
@@ -7633,6 +7638,15 @@ rc-virtual-list@^3.2.0, rc-virtual-list@^3.4.8:
     rc-resize-observer "^1.0.0"
     rc-util "^5.15.0"
 
+react-activity-calendar@^1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/react-activity-calendar/-/react-activity-calendar-1.6.4.tgz#90cfa80945ef492f13c30b41b829c564c5ab51f1"
+  integrity sha512-NGar/tQBvAJ7Tw+5N5iBW5NJTZguyqn2rJB77ctoFyC/NkPFkVutS3k1A/5EZySLtBm+Nx0j++9rBKgD+YJDSg==
+  dependencies:
+    "@types/tinycolor2" "^1.4.3"
+    date-fns "^2.29.3"
+    tinycolor2 "^1.4.0"
+
 react-app-polyfill@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/react-app-polyfill/-/react-app-polyfill-3.0.0.tgz#95221e0a9bd259e5ca6b177c7bb1cb6768f68fd7"
@@ -7697,13 +7711,12 @@ react-error-overlay@^6.0.11:
   resolved "https://registry.yarnpkg.com/react-error-overlay/-/react-error-overlay-6.0.11.tgz#92835de5841c5cf08ba00ddd2d677b6d17ff9adb"
   integrity sha512-/6UZ2qgEyH2aqzYZgQPxEnz33NJ2gNsnHA2o5+o4wW9bLM/JYQitNP9xPhsXwC08hMMovfGe/8retsdDsczPRg==
 
-react-github-calendar@^2.0.1:
-  version "2.0.2"
-  resolved "https://registry.yarnpkg.com/react-github-calendar/-/react-github-calendar-2.0.2.tgz#a8cd23a80575f2d50ccf6b237734e4e628e22e19"
-  integrity sha512-SkW4qWRGvNxzsAeukdbrIRWyEHSwkbnr+YdfHaXg/jE6KOHmZL0lxTty1kY0l62f9naeVHsmNxeLCPC748Fmtw==
+react-github-calendar@^3.3.4:
+  version "3.3.4"
+  resolved "https://registry.yarnpkg.com/react-github-calendar/-/react-github-calendar-3.3.4.tgz#c118f86d8ce4e9b8292067159d3a8114e92455f7"
+  integrity sha512-L8x+8cKYHB1n1N8pQrYS9UVUl7vUyuH2OI5r4NTfYrCQL3QzMlaIKEaQ0GIawo/+qqsDZi1Zl3Dgh4Pd+j3BqQ==
   dependencies:
-    date-fns "^2.14.0"
-    tinycolor2 "^1.4.0"
+    react-activity-calendar "^1.6.4"
 
 react-i18next@^11.7.2:
   version "11.18.6"
