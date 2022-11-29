@@ -35,16 +35,8 @@ function FavoriteProjects() {
         <div>
             <h3 className="headings-medium text-miniMedium">{t("favorite")}</h3>
             <Divider className="gradient-border-small"/>
-            <div style={{marginBottom: 10}} className="block">
-                <Trans i18nKey="programmingProject:favoriteDescription">Список проектов на Github'е не <i>прям чтобы большой</i>,
-                    но в нём отдельно хочется выделить следующие:</Trans>
-            </div>
             <ul className="what-list">
                 {dataItems}
-                <li><b style={{marginRight: 4}}><i><Trans i18nKey="programmingProject:inDevelopment">То, что в разработке.</Trans></i></b>
-                    <Trans i18nKey="programmingProject:inDevelopmentDescription">Стоять на месте - не лучшая идея, так что в будущих проектах
-                        планирую делать новые, полезные и, надеюсь, <i>прикольные</i> вещи.</Trans>
-                </li>
             </ul>
         </div>
     );

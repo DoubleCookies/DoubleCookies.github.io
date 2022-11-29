@@ -41,9 +41,7 @@ const en = {
         StringSwap: 'Small app for text processing',
         AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
 
-        favorite: 'Favorite projects',
-        favoriteDescription: 'Projects list on Github <1>isn\'t so big</1>, ' +
-            'but there are favorite projects:',
+        favorite: 'Personal top-3',
         MazeGeneratorAndSolver: 'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
             ' Love for mazes + visualization + cool features = <1>❤</1>',
         'wat-increment': 'I like JS crazy stuff — at least because almost everything can be explained.',
