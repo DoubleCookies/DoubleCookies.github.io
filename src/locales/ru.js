@@ -4,6 +4,7 @@ const ru = {
         cookies: 'DoubleCookies',
         programmingTitle: 'Программирование',
         programmingLink: 'Больше о программировании',
+        projectsTitle: 'Проекты',
         fandomTitle: 'FANDOM',
         hobbiesTitle: 'Увлечения',
         hobbiesLink: 'Больше о хобби',

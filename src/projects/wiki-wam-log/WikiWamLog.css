@@ -1,0 +1,19 @@
+.description {
+    margin-top: 10px;
+
+    font-size: calc(12px + 1vmin);
+    text-align: justify;
+}
+
+.charts-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.charts-names {
+    margin-top: 20px;
+
+    font-family: 'Balsamiq Sans', sans-serif;
+    font-size: calc(10px + 2vmin);
+    text-align: center;
+}

@@ -4,6 +4,7 @@ const en = {
         cookies: 'DoubleCookies',
         programmingTitle: 'Programming',
         programmingLink: "More about programming",
+        projectsTitle: 'Projects',
         fandomTitle: 'FANDOM',
         hobbiesTitle: 'Hobbies',
         hobbiesLink: 'More about hobbies',
