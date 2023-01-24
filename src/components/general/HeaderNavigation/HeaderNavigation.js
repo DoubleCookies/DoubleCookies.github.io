@@ -31,6 +31,7 @@ function HeaderNavigation(props) {
                 }}/></Menu.Item>
                 <Menu.Item key="main"><Link to="/">{t('mainTitle')}</Link></Menu.Item>
                 <Menu.Item key="programming"><Link to="/programming">{t('programmingTitle')}</Link></Menu.Item>
+                <Menu.Item key="projects"><Link to="/projects">{t('projectsTitle')}</Link></Menu.Item>
                 <Menu.Item key="hobbies"><Link to="/hobbies">{t('hobbiesTitle')}</Link></Menu.Item>
             </Menu>
         </Header>
