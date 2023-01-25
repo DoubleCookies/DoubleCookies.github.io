@@ -1,0 +1,32 @@
+.description {
+    margin-top: 10px;
+
+    font-size: calc(12px + 1vmin);
+    text-align: justify;
+}
+
+.main-block {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.form-label {
+    display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+
+    margin-left: -10px;
+}
+
+.form-text-area {
+    width: 90%;
+    resize: none;
+
+    margin: 10px;
+}
+
+.form-input {
+    max-width: 80%;
+
+    margin: 10px;
+}

@@ -24,7 +24,8 @@ function ProjectsPage() {
                         </Row>
                     </div>
                     <ul>
-                        <Link to="/projects/wiki-wam-log">Wiki WAM Log</Link>
+                        <Link to="/projects/wiki-wam-log">Wiki WAM Log</Link><br/>
+                        <Link to="/projects/string-swap-web">String Swap</Link>
                     </ul>
                     <Divider className="gradient-border-end"/>
                     <i>Work in progress. More info soon!</i>

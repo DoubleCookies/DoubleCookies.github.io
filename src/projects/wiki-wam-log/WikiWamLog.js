@@ -19,7 +19,7 @@ function WikiWamLogPage() {
         <Layout className="layout">
             <HeaderNavigation selectedKeys={[]}/>
             <Content>
-                <CookiesBlock name={"programmingTitle"}/>
+                <CookiesBlock name={"wikiWamLog"}/>
                 <div className="content-main">
                     <div className="description">
                         {t("wamIntroStart")}
