@@ -17,7 +17,7 @@ function MainPage() {
             <Content>
                 <CookiesBlock name={"cookies"}/>
                 <div className="content-main">
-                    <Row className="mainpage-margin">
+                    <Row>
                         <Col span={24} className="block">
                             <Trans i18nKey="mainPage:intro">Hello! My name is <b>Igor</b> but some people know me
                                 as <b>DoubleCookies</b> — person who loves programming,

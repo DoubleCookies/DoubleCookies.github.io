@@ -1,5 +1,5 @@
 import React from 'react';
-import { Layout } from 'antd';
+import { Divider, Layout } from 'antd';
 import { useTranslation } from 'react-i18next';
 import ComponentTabs from './components/ComponentTabs';
 import CookiesBlock from '../../components/general/CookiesBlock/CookiesBlock';
@@ -20,10 +20,11 @@ function StringSwapWebPage() {
             <Content>
                 <CookiesBlock name={"stringSwap"}/>
                 <div className="content-main">
-                    <div className="description">
+                    <div className="description content-block">
                         {t("intro")}
                     </div>
-                    <div className="main-block">
+                    <Divider className="gradient-border"/>
+                    <div className="content-block">
                         <ComponentTabs/>
                     </div>
                 </div>
