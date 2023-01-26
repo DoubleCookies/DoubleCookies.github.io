@@ -62,6 +62,32 @@ export const en = {
         plansList: "<0><1>I can check old commits, collect data from old months/years and " +
             "build graph/table/<2>other thing</2>.</1>" +
             "<1>Add illustrations. Everybody likes illustrations I guess?</1></0>",
+    },
+
+    gdStatistics: {
+        aboutTitle: "What is it?",
+        aboutText: "This project is about collecting data about levels in Geometry Dash — how many times level was downloaded, liked, " +
+            " who is creator, which soundtrack it uses, etc. After that different tables are filled with data.. and that's all!",
+        locationTitle: "Where can I find it?",
+        locationText: "You can check data <1>here</1>.",
+
+        workTitle: "How does it work?",
+        workList: "Everything is pretty simple and consecutive:<1>" +
+            "<0>Fetch data from Geometry Dash servers and get page (10 featured levels). We are getting data until we found " +
+            "last featured level.</0>" +
+            "<0>Form list for epic levels (because every epic level is featured we won't miss anything)</0>" +
+            "<0>Both lists split for another two lists  — for all levels and for demon-only.</0>" +
+            "<0>By manipulating the lists, we form various new lists - by difficulty, by soundtracks usage, by " +
+            "amount of levels from creator, etc.</0>" +
+            "<0>Save data in different files.</0>" +
+            "<0><2>Done!</2></0>" +
+            "</1>",
+        plansTitle: "Any plans?",
+        plansList: "<0>" +
+            "<1>Maybe check old commits, collect data from old months/years and " +
+            "build graph/table/<2>other thing</2>.</1>" +
+            "<1>Add illustrations. Everybody likes illustrations I guess?</1>" +
+            "</0>",
     }
 };
 

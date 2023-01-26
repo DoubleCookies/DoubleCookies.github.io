@@ -14,7 +14,7 @@ function StatsForWiki() {
         <Layout className="layout">
             <HeaderNavigation selectedKeys={[]}/>
             <Content>
-                <CookiesBlock name={"stringSwap"}/>
+                <CookiesBlock name={"stats4wiki"}/>
                 <div className="content-main">
                     <h2 className="headings text-medium">{t("aboutTitle")}</h2>
                     <Trans i18nKey="stats4wiki:aboutText">

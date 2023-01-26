@@ -27,7 +27,7 @@ function ProjectsPage() {
                         <li><Link to="/projects/wiki-wam-log">Wiki WAM Log</Link></li>
                         <li><Link to="/projects/string-swap-web">String Swap</Link></li>
                         <li><Link to="/projects/stats4wiki">stats4wiki</Link></li>
-
+                        <li><Link to="/projects/gdStatistics">GdStatistics</Link></li>
                     </ul>
                     <Divider className="gradient-border-end"/>
                     <i>Work in progress. More info soon!</i>
