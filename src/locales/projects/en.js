@@ -36,6 +36,32 @@ export const en = {
         startNumber: 'Start number',
         finNumber: 'Last number',
         extension: 'Extension'
+    },
+
+    stats4wiki: {
+        aboutTitle: "What is this project about?",
+        aboutText: "I collect data about top-50 most downloaded and most liked levels in Geometry Dash " +
+            "(overall and for \"demon\" difficulty levels). After that I form table and " +
+            "post it on Geometry Dash Wiki (ru). At the same time I create data for two templates which are used " +
+            "in articles about most downloaded levels.<1/>" +
+            "In result there is semi-automatic articles and templates update (and as a bonus, Wiki contains " +
+            "changes for these pages).",
+        workTitle: "How does it work?",
+        workList: "Everything is pretty simple and consecutive:<1>" +
+            "<0>Fetch data from Geometry Dash servers and get page (10 levels). Depending on type " +
+            "(downloads/likes) form two levels lists.</0>" +
+            "<0>Stop processing pages when we have 50 demon levels (automatically " +
+            "we will have 50 levels with every difficulty).</0>" +
+            "<0>Both lists split for another two lists  — for all levels and for demon-only.</0>" +
+            "<0>Transform every list in txt format " +
+            "(with nuances like template types, presence or absence of links, dividers, etc.)</0>" +
+            "<0>Process text for templates and save it.</0>" +
+            "<0><2>Done!</2></0>" +
+            "</1>",
+        plansTitle: "Any plans?",
+        plansList: "<0><1>I can check old commits, collect data from old months/years and " +
+            "build graph/table/<2>other thing</2>.</1>" +
+            "<1>Add illustrations. Everybody likes illustrations I guess?</1></0>",
     }
 };
 

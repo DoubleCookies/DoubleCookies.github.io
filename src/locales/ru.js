@@ -10,6 +10,7 @@ const ru = {
         hobbiesLink: 'Больше о хобби',
         wikiWamLog: 'Wiki WAM Log',
         stringSwap: 'String Swap',
+        stats4wiki: 'stats4wiki',
         intro: 'Привет! Меня зовут <1>Игорь</1>, но кто-то знает меня как <1>DoubleCookies</1> или <1>DblCookies</1> — тот, кто любит программировать, кушать печенье, изучать статистику и не только!',
     },
     aboutBlock: {

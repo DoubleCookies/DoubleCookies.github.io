@@ -10,6 +10,7 @@ import ScrollToTop from "./services/ScrollToTop/ScrollToTop";
 import ProjectsPage from './views/ProjectsPage';
 import WikiWamLogPage from './projects/wiki-wam-log/WikiWamLog';
 import StringSwapWebPage from './projects/string-swap-web/StringSwapWeb';
+import StatsForWiki from './projects/stats4wiki/StatsForWiki';
 
 function Routes() {
     return (
@@ -19,6 +20,7 @@ function Routes() {
                     <Route exact path="/" component={MainPage} />
                     <Route exact path="/projects/wiki-wam-log" component={WikiWamLogPage} />
                     <Route exact path="/projects/string-swap-web" component={StringSwapWebPage} />
+                    <Route exact path="/projects/stats4wiki" component={StatsForWiki} />
                     <Route path="/programming" component={ProgrammingPage} />
                     <Route path="/projects" component={ProjectsPage} />
                     <Route path="/hobbies" component={HobbiesPage} />
