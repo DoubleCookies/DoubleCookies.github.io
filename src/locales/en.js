@@ -10,6 +10,8 @@ const en = {
         hobbiesLink: 'More about hobbies',
         wikiWamLog: 'Wiki WAM Log',
         stringSwap: 'String Swap',
+        stats4wiki: 'stats4wiki',
+        gdStatistics: 'GdStatistics',
         intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> or <1>DblCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
     },
     aboutBlock: {
