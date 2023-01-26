@@ -1,5 +1,5 @@
 import React from 'react';
-import {Layout} from 'antd';
+import { Divider, Layout } from 'antd';
 import HeaderNavigation from '../../components/general/HeaderNavigation/HeaderNavigation';
 import FooterNavigation from '../../components/general/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../../components/general/CookiesBlock/CookiesBlock';
@@ -21,12 +21,13 @@ function WikiWamLogPage() {
             <Content>
                 <CookiesBlock name={"wikiWamLog"}/>
                 <div className="content-main">
-                    <div className="description">
+                    <div className="description content-block">
                         {t("wamIntroStart")}
                         <br/>
                         {t("wamIntroFinish")}
                     </div>
-                    <div className="charts-block">
+                    <Divider className="gradient-border"/>
+                    <div className="content-block">
                         <div className="charts-names">{t("undertale")}</div>
                         <UndertaleChart/>
                         <div className="charts-names">{t("geometryDash")}</div>
