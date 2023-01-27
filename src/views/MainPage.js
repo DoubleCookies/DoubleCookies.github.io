@@ -7,45 +7,50 @@ import FooterNavigation from '../components/general/FooterNavigation/FooterNavig
 import CookiesBlock from '../components/general/CookiesBlock/CookiesBlock';
 import MainPageInfo from '../components/mainPage/MainPageInfo/MainPageInfo';
 
-const {Content} = Layout;
+const { Content } = Layout;
 
 function MainPage() {
-    const {t} = useTranslation(['mainPage']);
+    const { t } = useTranslation(['mainPage']);
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={['main']}/>
+            <HeaderNavigation selectedKeys={['main']} />
             <Content>
-                <CookiesBlock name={"cookies"}/>
+                <CookiesBlock name={'cookies'} />
                 <div className="content-main">
                     <Row>
                         <Col span={24} className="block">
-                            <Trans i18nKey="mainPage:intro">Hello! My name is <b>Igor</b> but some people know me
-                                as <b>DoubleCookies</b> — person who loves programming,
-                                eating cookies, check statistics and other things!</Trans>
+                            <Trans i18nKey="mainPage:intro">
+                                Hello! My name is <b>Igor</b> but some people know me as <b>DoubleCookies</b> — person
+                                who loves programming, eating cookies, check statistics and other things!
+                            </Trans>
                         </Col>
                     </Row>
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-miniMedium">{t("mainTitle")}</h2>
+                            <h2 className="headings text-miniMedium">{t('mainTitle')}</h2>
                         </Col>
                     </Row>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <Row>
                         <Col span={24}>
-                            <MainPageInfo/>
+                            <MainPageInfo />
                         </Col>
                     </Row>
                     <Row justify="center" gutter={12} className="mainPageButtons">
                         <Col span={12} flex>
-                            <div className="progLink"><Link to="/programming">{t("programmingLink")}</Link></div>
+                            <div className="progLink">
+                                <Link to="/programming">{t('programmingLink')}</Link>
+                            </div>
                         </Col>
                         <Col span={12} flex>
-                            <div className="hobbyLink"><Link to="/hobbies">{t("hobbiesLink")}</Link></div>
+                            <div className="hobbyLink">
+                                <Link to="/hobbies">{t('hobbiesLink')}</Link>
+                            </div>
                         </Col>
                     </Row>
                 </div>
             </Content>
-            <FooterNavigation/>
+            <FooterNavigation />
         </Layout>
     );
 }

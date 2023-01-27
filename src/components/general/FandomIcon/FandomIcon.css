@@ -1,4 +1,5 @@
-.fandomIcon svg, .fandomIcon:hover svg {
+.fandomIcon svg,
+.fandomIcon:hover svg {
     transition: all 0.2s ease-in;
 }
 

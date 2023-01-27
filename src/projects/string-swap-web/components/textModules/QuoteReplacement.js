@@ -1,6 +1,6 @@
-import React from "react";
-import StartTextLabel from "../StartTextLabel";
-import ResultLabel from "../ResultLabel";
+import React from 'react';
+import StartTextLabel from '../StartTextLabel';
+import ResultLabel from '../ResultLabel';
 
 class QuoteReplacement extends React.Component<> {
     constructor(props) {
@@ -8,35 +8,37 @@ class QuoteReplacement extends React.Component<> {
 
         this.state = {
             startValue: '',
-            finishValue: ''
+            finishValue: '',
         };
     }
 
     render() {
-        const {description} = this.props;
-        const {finishValue} = this.state;
+        const { description } = this.props;
+        const { finishValue } = this.state;
         return (
             <form>
-                <div style={{display: 'flex', flexDirection: 'row'}}>
-                    <div style={{flexDirection: 'column', flexBasis: '50%'}}>
-                        <StartTextLabel/>
-                        <textarea className="form-text-area"
-                                  placeholder='"Hello there"'
-                                  onChange={this.updateStartValue.bind(this)}
-                                  rows={10}
+                <div style={{ display: 'flex', flexDirection: 'row' }}>
+                    <div style={{ flexDirection: 'column', flexBasis: '50%' }}>
+                        <StartTextLabel />
+                        <textarea
+                            className="form-text-area"
+                            placeholder='"Hello there"'
+                            onChange={this.updateStartValue.bind(this)}
+                            rows={10}
                         />
                     </div>
-                    <div style={{flexDirection: 'column', flexBasis: '50%'}}>
-                        <ResultLabel/>
-                        <textarea className="form-text-area"
-                                  placeholder="«Hello there»"
-                                  value={finishValue}
-                                  readOnly={true}
-                                  rows={10}
+                    <div style={{ flexDirection: 'column', flexBasis: '50%' }}>
+                        <ResultLabel />
+                        <textarea
+                            className="form-text-area"
+                            placeholder="«Hello there»"
+                            value={finishValue}
+                            readOnly={true}
+                            rows={10}
                         />
                     </div>
                 </div>
-                <hr className="gradient-border"/>
+                <hr className="gradient-border" />
                 {description}
             </form>
         );
@@ -44,25 +46,25 @@ class QuoteReplacement extends React.Component<> {
 
     async updateStartValue(event) {
         await this.setState({
-            startValue: event.target.value
+            startValue: event.target.value,
         });
         this.replaceText();
     }
 
     replaceText() {
-        const {startValue} = this.state;
+        const { startValue } = this.state;
         let resultString = startValue;
         let startQuote = true;
         if (!startValue) {
-            return
+            return;
         }
         while (resultString.indexOf('"') > -1) {
             resultString = resultString.replace('"', startQuote ? '«' : '»');
             startQuote = !startQuote;
         }
         this.setState({
-            finishValue: resultString
-        })
+            finishValue: resultString,
+        });
     }
 }
 

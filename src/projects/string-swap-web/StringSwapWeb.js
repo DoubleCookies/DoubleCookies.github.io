@@ -10,26 +10,24 @@ import './StringSwapWeb.css';
 import 'react-tabs/style/react-tabs.css';
 
 function StringSwapWebPage() {
-    const {Content} = Layout;
+    const { Content } = Layout;
 
-    const {t} = useTranslation(['stringSwap']);
+    const { t } = useTranslation(['stringSwap']);
 
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={[]}/>
+            <HeaderNavigation selectedKeys={[]} />
             <Content>
-                <CookiesBlock name={"stringSwap"}/>
+                <CookiesBlock name={'stringSwap'} />
                 <div className="content-main">
-                    <div className="description content-block">
-                        {t("intro")}
-                    </div>
-                    <Divider className="gradient-border"/>
+                    <div className="description content-block">{t('intro')}</div>
+                    <Divider className="gradient-border" />
                     <div className="content-block">
-                        <ComponentTabs/>
+                        <ComponentTabs />
                     </div>
                 </div>
             </Content>
-            <FooterNavigation/>
+            <FooterNavigation />
         </Layout>
     );
 }

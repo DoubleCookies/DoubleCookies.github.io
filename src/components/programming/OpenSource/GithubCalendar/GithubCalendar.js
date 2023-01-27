@@ -6,7 +6,7 @@ function GithubCalendar() {
     return (
         <div className="block-medium">
             <GitHubCalendar username="DoubleCookies">
-                <ReactTooltip delayShow={50} html/>
+                <ReactTooltip delayShow={50} html />
             </GitHubCalendar>
         </div>
     );

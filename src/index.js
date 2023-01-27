@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './index.less';
 import './i18n';
 import MainPage from './views/MainPage';
 import ProgrammingPage from './views/ProgrammingPage';
 import HobbiesPage from './views/HobbiesPage';
-import ScrollToTop from "./services/ScrollToTop/ScrollToTop";
+import ScrollToTop from './services/ScrollToTop/ScrollToTop';
 import ProjectsPage from './views/ProjectsPage';
 import WikiWamLogPage from './projects/wiki-wam-log/WikiWamLog';
 import StringSwapWebPage from './projects/string-swap-web/StringSwapWeb';
@@ -32,7 +32,4 @@ function Routes() {
     );
 }
 
-ReactDOM.render(
-<Routes />,
-    document.getElementById('root')
-);
+ReactDOM.render(<Routes />, document.getElementById('root'));

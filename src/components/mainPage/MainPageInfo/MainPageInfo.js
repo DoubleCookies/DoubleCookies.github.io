@@ -2,44 +2,39 @@ import { useTranslation } from 'react-i18next';
 import React from 'react';
 
 function MainPageInfo() {
-    const {t} = useTranslation(['aboutBlock']);
+    const { t } = useTranslation(['aboutBlock']);
     const data = [
         {
-            description: t("Java")
+            description: t('Java'),
         },
         {
-            description: t("Skills")
+            description: t('Skills'),
         },
         {
-            description: t("Project")
+            description: t('Project'),
         },
         {
-            description: t("TeamManagement")
+            description: t('TeamManagement'),
         },
         {
-            description: t("OpenSource")
+            description: t('OpenSource'),
         },
         {
-            description: t("Hobbies")
+            description: t('Hobbies'),
         },
         {
-            description: t("SplatoonStart")
+            description: t('SplatoonStart'),
         },
         {
-            description: t("SplatoonFin")
-        }
+            description: t('SplatoonFin'),
+        },
     ];
 
-    const dataItems = data.map((item, index) =>
-        <li key={index}>
-            {item.description}
-        </li>);
+    const dataItems = data.map((item, index) => <li key={index}>{item.description}</li>);
 
     return (
         <div>
-            <ul>
-                {dataItems}
-            </ul>
+            <ul>{dataItems}</ul>
         </div>
     );
 }

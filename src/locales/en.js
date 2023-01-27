@@ -3,7 +3,7 @@ const en = {
         mainTitle: 'About me',
         cookies: 'DoubleCookies',
         programmingTitle: 'Programming',
-        programmingLink: "More about programming",
+        programmingLink: 'More about programming',
         projectsTitle: 'Projects',
         fandomTitle: 'FANDOM',
         hobbiesTitle: 'Hobbies',
@@ -15,16 +15,19 @@ const en = {
         intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> or <1>DblCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
     },
     aboutBlock: {
-        Java: "Senior Java Developer, 5 years of experience",
-        Skills: "Familiar with Java, Spring Boot, Maven, JavaScript, TypeScript, React, HTML, CSS",
-        Project: "Took part in the creation of new project and improvement of existing ones",
-        TeamManagement: "Help other developers on the team",
-        OpenSource: "Contribute to Open Source — I have my own repositories on GitHub and contribution in other projects.",
-        Hobbies: "Interested in chess, photography and other cool things!",
-        SplatoonStart: "Active member of Splatoon community — I'm involved into events " +
-            "organization and other community building efforts",
-        SplatoonFin: "Also I'm the leader of Splatoon team Ewfish (also known as ФУРЫБА) — one of the few active Ru-teams participating " +
-            "in global tournaments",
+        Java: 'Senior Java Developer, 5 years of experience',
+        Skills: 'Familiar with Java, Spring Boot, Maven, JavaScript, TypeScript, React, HTML, CSS',
+        Project: 'Took part in the creation of new project and improvement of existing ones',
+        TeamManagement: 'Help other developers on the team',
+        OpenSource:
+            'Contribute to Open Source — I have my own repositories on GitHub and contribution in other projects.',
+        Hobbies: 'Interested in chess, photography and other cool things!',
+        SplatoonStart:
+            "Active member of Splatoon community — I'm involved into events " +
+            'organization and other community building efforts',
+        SplatoonFin:
+            "Also I'm the leader of Splatoon team Ewfish (also known as ФУРЫБА) — one of the few active Ru-teams participating " +
+            'in global tournaments',
     },
     aboutThisPage: {
         title: 'This page uses following technologies:',
@@ -33,7 +36,7 @@ const en = {
         ghPages: 'This page host',
         i18next: 'For internationalization',
         reactRouter: 'For navigation',
-        cookie: 'I\'m smart cookie. Know something about it.',
+        cookie: "I'm smart cookie. Know something about it.",
     },
     programmingProject: {
         title: 'Projects',
@@ -47,18 +50,21 @@ const en = {
         AssociativeRules: 'Old university project about creating and analysis of associative rules for medical tasks',
 
         favorite: 'Personal top-3',
-        MazeGeneratorAndSolver: 'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
+        MazeGeneratorAndSolver:
+            'One of the old projects that was created for fun, and in the end it sunk into the soul seriously and for long.' +
             ' Love for mazes + visualization + cool features = <1>❤</1>',
         'wat-increment': 'I like JS crazy stuff — at least because almost everything can be explained.',
         ewfish: 'Probably most stylish project so far!',
         inDevelopment: 'Something in development.',
-        inDevelopmentDescription: 'Standing still is not the best idea, ' +
+        inDevelopmentDescription:
+            'Standing still is not the best idea, ' +
             'so in the upcoming projects I plan to do new, useful and, hopefully, <1>cool</1> things',
     },
     programmingSection: {
         exp: 'Skills',
-        link: "There are some repositories <1>on my Github-page</1>. Here are some of them:",
-        start: 'I am senior Java software developer with 5 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
+        link: 'There are some repositories <1>on my Github-page</1>. Here are some of them:',
+        start:
+            'I am senior Java software developer with 5 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
             'Below are the technologies I have worked with (hopefully this list will grow!)',
         backendTab: 'Java + related',
         frontendTab: 'Web',
@@ -66,23 +72,28 @@ const en = {
         javaIntro: 'Java can be slow and complicated, but still great!',
         frontendIntro: '*It is everywhere*',
         otherIntro: 'Some useful things',
-        javaExp: 'This is my "main" programming language, used most of the time. I started my path with Java 8 and now ' +
-            'I\'m gradually moving to new versions (11 -> 17 -> 18). ' +
+        javaExp:
+            'This is my "main" programming language, used most of the time. I started my path with Java 8 and now ' +
+            "I'm gradually moving to new versions (11 -> 17 -> 18). " +
             'Also learned about connected things like:',
-        backendSkills: '<0>' +
+        backendSkills:
+            '<0>' +
             '<1>Spring Boot and Maven for creating, compiling and building apps.</1>' +
             '<1>JUnit and Mockito for testing.</1>' +
             '<1>Hibernate and PostgreSQL for databases. Also worked with MS SQL Server and Oracle Database.</1>' +
             '</0>',
-        frontendExp: 'Javascript and other stuff connected with it. I have less experience with JS than with Java but it doesn\'t stop me at all! ' +
+        frontendExp:
+            "Javascript and other stuff connected with it. I have less experience with JS than with Java but it doesn't stop me at all! " +
             'I use JS mostly in my free time (almost each of my active repos has web-page).',
-        frontendSkills: '<0>' +
-            '<1>JavaScript and TypeScript as programming language. I don\'t know what is better.</1>' +
-            '<1>React. Tried Angular before but it isn\'t my cup of tea. Maybe I\'ll try Vue and other frameworks later.</1>' +
+        frontendSkills:
+            '<0>' +
+            "<1>JavaScript and TypeScript as programming language. I don't know what is better.</1>" +
+            "<1>React. Tried Angular before but it isn't my cup of tea. Maybe I'll try Vue and other frameworks later.</1>" +
             '<1>Ant Design. Big and cool library.</1>' +
-            '<1>HTML + CSS. It\'s just must have.</1>' +
+            "<1>HTML + CSS. It's just must have.</1>" +
             '</0>',
-        otherSkills: '<0>' +
+        otherSkills:
+            '<0>' +
             '<1>C#. First modern programming language I learned.</1>' +
             '<1>Git, Github. Version control + hosting for repos.</1>' +
             '<1>Github Pages + Jekyll. Hosting pages for free is awesome, and powerful static pages generator ' +
@@ -92,19 +103,24 @@ const en = {
     },
     hobbiesSection: {
         photoTitle: 'Photography',
-        photoStart: 'In my free time I like to take photos of nature (usually within the city), but sometimes I experiment with still lifes. ' +
+        photoStart:
+            'In my free time I like to take photos of nature (usually within the city), but sometimes I experiment with still lifes. ' +
             'I began to do it in university and I still like it!',
         photoGallery: 'Here you can see some of my photos:',
         fandomTitle: 'FANDOM',
-        fandomStart: 'FANDOM is one of the biggest wiki hosting and fan-site in the world. I actively edit on it since 2016. ' +
+        fandomStart:
+            'FANDOM is one of the biggest wiki hosting and fan-site in the world. I actively edit on it since 2016. ' +
             'The main direction is to maintain the technical part of project (templates, CSS, JS, even Lua modules); also I improve articles and write new ones.',
-        fandomVanguard: 'From 2019 to 2022 I was Vanguard member — team which helped make Fandom\'s content available on the widest possible range of devices. Nowadays this project is closed ' +
+        fandomVanguard:
+            "From 2019 to 2022 I was Vanguard member — team which helped make Fandom's content available on the widest possible range of devices. Nowadays this project is closed " +
             'but memories about it are good.',
         chessTitle: 'Chess',
-        chessStart: 'I began to play chess at 4 (chess, of course, are more complicated than cars and robots but a way more interesting). ' +
+        chessStart:
+            'I began to play chess at 4 (chess, of course, are more complicated than cars and robots but a way more interesting). ' +
             'Also I participated in school and university competitions and took 1-3 places as a part of teams. ' +
             'Nowadays I play chess not so often and mostly online.',
-        splatoonInfo: 'Splatoon — kind and interesting game about squids and octopuses which ink territory and splat each other. ' +
+        splatoonInfo:
+            'Splatoon — kind and interesting game about squids and octopuses which ink territory and splat each other. ' +
             'Bright, fun, fast-paced, <0>10000 years after apocalypse, lore is deep, trust me</0>. First time I found out about ' +
             'Splatoon 2 was 2018 — I watched World Championship finale and after some time I bought this game. \n' +
             'Over time, I more and more merged into the game community and in the beginning of 2021 I participated in events organization for ' +
@@ -114,8 +130,8 @@ const en = {
             '(where we almost every time were near top places, losing only to experienced players) ' +
             'and in worldwide tournaments — as a result, we got in top-3 several times in tournaments for low-level teams. \n' +
             'Splatoon 3 is almost here and who knows what will be waiting and for me, and for Ewfish. ' +
-            'I hope it will be interesting, fascinating and fun as always!'
-    }
+            'I hope it will be interesting, fascinating and fun as always!',
+    },
 };
 
 export default en;

@@ -11,35 +11,35 @@ import { useTranslation } from 'react-i18next';
 import './WikiWamLog.css';
 
 function WikiWamLogPage() {
-    const {Content} = Layout;
+    const { Content } = Layout;
 
-    const {t} = useTranslation(['wikiWamLog']);
+    const { t } = useTranslation(['wikiWamLog']);
 
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={[]}/>
+            <HeaderNavigation selectedKeys={[]} />
             <Content>
-                <CookiesBlock name={"wikiWamLog"}/>
+                <CookiesBlock name={'wikiWamLog'} />
                 <div className="content-main">
                     <div className="description content-block">
-                        {t("wamIntroStart")}
-                        <br/>
-                        {t("wamIntroFinish")}
+                        {t('wamIntroStart')}
+                        <br />
+                        {t('wamIntroFinish')}
                     </div>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <div className="content-block">
-                        <div className="charts-names">{t("undertale")}</div>
-                        <UndertaleChart/>
-                        <div className="charts-names">{t("geometryDash")}</div>
-                        <GeometryDashChart/>
-                        <div className="charts-names">{t("stevenUniverse")}</div>
-                        <StevenUniverseChart/>
-                        <div className="charts-names">{t("battleCats")}</div>
-                        <BattleCatsChart/>
+                        <div className="charts-names">{t('undertale')}</div>
+                        <UndertaleChart />
+                        <div className="charts-names">{t('geometryDash')}</div>
+                        <GeometryDashChart />
+                        <div className="charts-names">{t('stevenUniverse')}</div>
+                        <StevenUniverseChart />
+                        <div className="charts-names">{t('battleCats')}</div>
+                        <BattleCatsChart />
                     </div>
                 </div>
             </Content>
-            <FooterNavigation/>
+            <FooterNavigation />
         </Layout>
     );
 }

@@ -4,75 +4,85 @@ import HeaderNavigation from '../components/general/HeaderNavigation/HeaderNavig
 import FooterNavigation from '../components/general/FooterNavigation/FooterNavigation';
 import CookiesBlock from '../components/general/CookiesBlock/CookiesBlock';
 import ImagesGallery from '../components/hobbies/Gallery/ImagesGallery';
-import { Trans, useTranslation } from "react-i18next";
+import { Trans, useTranslation } from 'react-i18next';
 
-const {Content} = Layout;
+const { Content } = Layout;
 
 function HobbiesPage() {
-    const {t} = useTranslation(['hobbiesSection']);
+    const { t } = useTranslation(['hobbiesSection']);
     return (
         <Layout className="layout">
-            <HeaderNavigation selectedKeys={['hobbies']}/>
+            <HeaderNavigation selectedKeys={['hobbies']} />
             <Content>
-                <CookiesBlock name={"hobbiesTitle"}/>
+                <CookiesBlock name={'hobbiesTitle'} />
                 <div className="content-main">
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("photoTitle")}</h2>
+                            <h2 className="headings text-medium">{t('photoTitle')}</h2>
                         </Col>
                     </Row>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <Row>
-                        <Col span={24} className="block">{t("photoStart")}</Col>
-                    </Row>
-                    <Row style={{marginBottom: 10}}>
-                        <Col span={24} className="block">{t("photoGallery")}</Col>
-                    </Row>
-                    <Row style={{lineHeight: 0, textAlign: 'center'}}>
-                        <Col span={24}>
-                            <ImagesGallery/>
+                        <Col span={24} className="block">
+                            {t('photoStart')}
                         </Col>
                     </Row>
-                    <br/>
+                    <Row style={{ marginBottom: 10 }}>
+                        <Col span={24} className="block">
+                            {t('photoGallery')}
+                        </Col>
+                    </Row>
+                    <Row style={{ lineHeight: 0, textAlign: 'center' }}>
+                        <Col span={24}>
+                            <ImagesGallery />
+                        </Col>
+                    </Row>
+                    <br />
                     <Row>
                         <Col span={24}>
                             <h2 className="headings text-medium">Splatoon</h2>
                         </Col>
                     </Row>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <Row>
                         <Col span={24} className="block hobbiesBlock">
-                            <Trans i18nKey={"hobbiesSection:splatoonInfo"}>
+                            <Trans i18nKey={'hobbiesSection:splatoonInfo'}>
                                 <s>10000 years after apocalypse, lore is deep, trust me</s>
                             </Trans>
                         </Col>
                     </Row>
-                    <br/>
+                    <br />
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("chessTitle")}</h2>
+                            <h2 className="headings text-medium">{t('chessTitle')}</h2>
                         </Col>
                     </Row>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <Row>
-                        <Col span={24} className="block">{t("chessStart")}</Col>
+                        <Col span={24} className="block">
+                            {t('chessStart')}
+                        </Col>
                     </Row>
-                    <br/>
+                    <br />
                     <Row>
                         <Col span={24}>
-                            <h2 className="headings text-medium">{t("fandomTitle")}</h2>
+                            <h2 className="headings text-medium">{t('fandomTitle')}</h2>
                         </Col>
                     </Row>
-                    <Divider className="gradient-border"/>
+                    <Divider className="gradient-border" />
                     <Row>
-                        <Col span={24} className="block">{t("fandomStart")}</Col>
+                        <Col span={24} className="block">
+                            {t('fandomStart')}
+                        </Col>
                     </Row>
                     <Row>
-                        <Col span={24} className="block">{t("fandomVanguard")}</Col>
+                        <Col span={24} className="block">
+                            {t('fandomVanguard')}
+                        </Col>
                     </Row>
                 </div>
             </Content>
-            <FooterNavigation/>
+            <FooterNavigation />
         </Layout>
     );
 }

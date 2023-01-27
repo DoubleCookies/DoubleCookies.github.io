@@ -5,7 +5,7 @@
 }
 
 .cookies-block-font {
-    font-family: "Balsamiq Sans", "Century Gothic", "Segoe UI", "Roboto", sans-serif;
+    font-family: 'Balsamiq Sans', 'Century Gothic', 'Segoe UI', 'Roboto', sans-serif;
 }
 
 .cookies-img-wrapper {
@@ -86,4 +86,3 @@
     -o-animation: fadeInDown 1s ease;
     animation: fadeInDown 1s ease;
 }
-
