@@ -15,7 +15,7 @@ const en = {
         intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> or <1>DblCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
     },
     aboutBlock: {
-        Java: 'Senior Java Developer, 5 years of experience',
+        Java: 'Senior Java Developer, almost 6 years of experience',
         Skills: 'Familiar with Java, Spring Boot, Maven, JavaScript, TypeScript, React, HTML, CSS',
         Project: 'Took part in the creation of new project and improvement of existing ones',
         TeamManagement: 'Help other developers on the team',
@@ -64,7 +64,7 @@ const en = {
         exp: 'Skills',
         link: 'There are some repositories <1>on my Github-page</1>. Here are some of them:',
         start:
-            'I am senior Java software developer with 5 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
+            'I am senior Java software developer with almost 6 years experience. It is interesting and fascinating, but sometimes confusing and difficult. ' +
             'Below are the technologies I have worked with (hopefully this list will grow!)',
         backendTab: 'Java + related',
         frontendTab: 'Web',
