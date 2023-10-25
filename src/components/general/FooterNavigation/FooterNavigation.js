@@ -77,7 +77,7 @@ function FooterNavigation() {
                     </a>
                 </div>
                 <div className="footer-font">
-                    2019-2022{' '}
+                    2019-2023{' '}
                     <span role="img" aria-label="cookieEmoji">
                         🍪
                     </span>

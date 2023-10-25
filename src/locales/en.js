@@ -15,7 +15,7 @@ const en = {
         intro: 'Hello! My name is <1>Igor</1> but some people know me as <1>DoubleCookies</1> or <1>DblCookies</1> — person who loves programming, eating cookies, check statistics and other things!',
     },
     aboutBlock: {
-        Java: 'Senior Java Developer, almost 6 years of experience',
+        Java: 'Senior Java Developer, 6 years of experience',
         Skills: 'Familiar with Java, Spring Boot, Maven, JavaScript, TypeScript, React, HTML, CSS',
         Project: 'Took part in the creation of new project and improvement of existing ones',
         TeamManagement: 'Help other developers on the team',
@@ -26,7 +26,7 @@ const en = {
             "Active member of Splatoon community — I'm involved into events " +
             'organization and other community building efforts',
         SplatoonFin:
-            "Also I'm the leader of Splatoon team Ewfish (also known as ФУРЫБА) — one of the few active Ru-teams participating " +
+            "Also I'm the leader of Splatoon team EWfish (also known as ФУРЫБА) — one of the few active Ru-teams participating " +
             'in global tournaments',
     },
     aboutThisPage: {
@@ -125,11 +125,11 @@ const en = {
             'Splatoon 2 was 2018 — I watched World Championship finale and after some time I bought this game. \n' +
             'Over time, I more and more merged into the game community and in the beginning of 2021 I participated in events organization for ' +
             'russian segment - tournaments, splatfests, even fashion show (why not — there are over 300 types of clothes). \n' +
-            'Parallel to this in 2020 I joined team Ewfish (also known as ФУРЫБА) — first as simple member, but over time ' +
+            'Parallel to this in 2020 I joined team EWfish (also known as ФУРЫБА) — first as simple member, but over time ' +
             'I became team leader due to high activity and search for new members. We participated in local tournaments ' +
             '(where we almost every time were near top places, losing only to experienced players) ' +
             'and in worldwide tournaments — as a result, we got in top-3 several times in tournaments for low-level teams. \n' +
-            'Splatoon 3 is almost here and who knows what will be waiting and for me, and for Ewfish. ' +
+            'Splatoon 3 is almost here and who knows what will be waiting and for me, and for EWfish. ' +
             'I hope it will be interesting, fascinating and fun as always!',
     },
 };
